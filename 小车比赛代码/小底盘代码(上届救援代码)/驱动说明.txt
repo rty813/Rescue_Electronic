@@ -1,0 +1,38 @@
+		
+		 | CH-A  | CH-B
+	TIM2	 | PA15  | PB3  (占用JTAG )
+	IM4	 | PB6   | PB7
+
+
+
+		 | CH-1  | CH-2  
+	TIM8	 | PC6   | PC7   
+
+AX12     USART3_Tx  PB10
+         USART3_Rx  PB11                 
+
+
+
+正反转：电机1：    CH1_A    PB14
+                   CH1_B    PB12
+
+	电机2：    CH2_A    PB15
+		   CH2_B    PB13
+ 
+        SPI1 : 	 NSS 	 PA4    CSN    :RNF24l01 
+		 SCK	 PA5	SCK             
+	      	 MISO	 PA6	MISO
+	      	 MOSI	 PA7	MOSI   
+                         PC4    IRQ  
+         		 PC5	CE 
+
+       USART1 :  Tx   PA9
+	         Rx   PA10
+
+       USART4 :  Rx :  PC11     
+		 Tx :  PC10
+
+	LED  :  PB5, PE5
+
+
+pid.h  :  MAX_PWM  = 700 限速    （设定值不可超过800， 可自行尝试）

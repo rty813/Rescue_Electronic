@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: x Dylan, x, LIC=BL2X7-EDLKM-D14PR-KNU98-PB1K7-TNERT
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\Program Files\Keil_V5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+E:\基地\救援资料\救援代码\CO2&LED\Project\uv4\CO2&LED.uvprojx
+Project File Date:  04/08/2016
+
+<h2>Output:</h2>
+Rebuild target 'CO2&LED'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_tim.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling can.c...
+compiling delay.c...
+compiling usart.c...
+..\..\User\usart.c(218): warning:  #1293-D: assignment in condition
+        while(!Empty_Queue(*pQueue)&&((char_temp = Top_Queue(pQueue))));
+..\..\User\usart.c(215): warning:  #177-D: variable "str" was declared but never referenced
+        uint8_t str[Str_to_Float_MAX_SIZE] = {0};
+..\..\User\usart.c(216): warning:  #177-D: variable "str_count" was declared but never referenced
+        uint8_t str_count=0;
+..\..\User\usart.c(217): warning:  #550-D: variable "char_temp" was set but never used
+        uint8_t char_temp;
+..\..\User\usart.c: 4 warnings, 0 errors
+compiling CO2&LED.c...
+linking...
+Program Size: Code=6184 RO-data=344 RW-data=44 ZI-data=1492  
+FromELF: creating hex file...
+"..\..\Output\CO2&LED.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\基地\救援资料\救援代码\CO2&LED\Project\uv4\RTE
+  D:\Program Files\Keil_V5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

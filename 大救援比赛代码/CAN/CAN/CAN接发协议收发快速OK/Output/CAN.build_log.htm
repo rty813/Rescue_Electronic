@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Zijing Chen, Microsoft, LIC=4ZL2Z-J6XKN-17VRR-KBEEN-YZSPM-FKW9T
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\STM32install\1\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+F:\机器人基地文件\STM32代码\CAN\CAN\CAN接发协议收发快速OK\Project\uv4\CAN.uvprojx
+Project File Date:  11/10/2016
+
+<h2>Output:</h2>
+Build target 'CAN'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_can.c...
+compiling main.c...
+..\..\User\main.c(28): warning:  #177-D: variable "x" was declared but never referenced
+        float x;
+..\..\User\main.c(29): warning:  #177-D: variable "str" was declared but never referenced
+        uint8_t str[]="CCC";
+..\..\User\main.c: 2 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling can.c...
+..\..\User\can.c(88): warning:  #111-D: statement is unreachable
+                                                                                                break;
+..\..\User\can.c(97): warning:  #111-D: statement is unreachable
+                                                                                        break;
+..\..\User\can.c(113): warning:  #111-D: statement is unreachable
+                                                                                                break;
+..\..\User\can.c(120): warning:  #111-D: statement is unreachable
+                                                                                                                break;
+..\..\User\can.c(124): warning:  #111-D: statement is unreachable
+        return SUCCESS;
+..\..\User\can.c(27): warning:  #177-D: variable "count_temp2" was declared but never referenced
+        uint32_t        count_temp , count_temp2 , char_temp;
+..\..\User\can.c: 6 warnings, 0 errors
+compiling delay.c...
+compiling usart.c...
+compiling queue.c...
+compiling Bsp_init.c...
+linking...
+Program Size: Code=4452 RO-data=336 RW-data=48 ZI-data=1200  
+FromELF: creating hex file...
+"..\..\Output\CAN.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\机器人基地文件\STM32代码\CAN\CAN\CAN接发协议收发快速OK\Project\uv4\RTE
+  D:\STM32install\1\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

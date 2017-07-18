@@ -1,0 +1,16 @@
+..\..\output\ax.o: ..\..\User\AX.c
+..\..\output\ax.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\ax.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\output\ax.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\ax.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\output\ax.o: ..\..\User\stm32f10x_conf.h
+..\..\output\ax.o: ..\..\Libraries\FWlib\inc\stm32f10x_can.h
+..\..\output\ax.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\ax.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\output\ax.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\..\output\ax.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h
+..\..\output\ax.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\..\output\ax.o: ..\..\Libraries\FWlib\inc\misc.h
+..\..\output\ax.o: ..\..\User\usart.h
+..\..\output\ax.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\ax.o: ..\..\User\AX.h
