@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=GND Pin=E_BUTTON-3
+Removed Pin From Net: NetName=VCC_5V Pin=E_BUTTON-4
+Removed Pin From Net: NetName=CANH Pin=R6_120-2
+Removed Member From Class: ClassName=STM32电机 Member=E_BUTTON
+Change Component DesignItemId : Designator=C4_10uf Old DesignItemId=CAP_POL_WYN_1 New DesignItemId=CAP_WYN
+Change Component DesignItemId : Designator=C6_10uf Old DesignItemId=CAP_POL_WYN_1 New DesignItemId=CAP_WYN
+Change Component DesignItemId : Designator=C_CAN_10UF Old DesignItemId=CAP_POL_WYN_1 New DesignItemId=CAP_WYN
+Change Component DesignItemId : Designator=VDD3 Old DesignItemId=CAP_POL_WYN_1 New DesignItemId=CAP_WYN
+Change Component DesignItemId : Designator=VDDA1 Old DesignItemId=CAP_POL_WYN_1 New DesignItemId=CAP_WYN
+Change Component DesignItemId : Designator=LS0_1K Old DesignItemId=RES_WYN New DesignItemId=R
+Change Component DesignItemId : Designator=LS1_1K Old DesignItemId=RES_WYN New DesignItemId=R
+Change Component DesignItemId : Designator=LS2_1K Old DesignItemId=RES_WYN New DesignItemId=R
+Change Component DesignItemId : Designator=R6_120 Old DesignItemId=RES_WYN New DesignItemId=R
+Change Component DesignItemId : Designator=R_RST_10K Old DesignItemId=RES_WYN New DesignItemId=R
+Change Component Footprint: Designator=C4_10uf Old Footprint=0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=C6_10uf Old Footprint=0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=C_CAN_10UF Old Footprint=0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=VDD3 Old Footprint=0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=VDDA1 Old Footprint=0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=LS0_1K Old Footprint=0805_WYN New Footprint=0603P
+Change Component Footprint: Designator=LS1_1K Old Footprint=0805_WYN New Footprint=0603P
+Change Component Footprint: Designator=LS2_1K Old Footprint=0805_WYN New Footprint=0603P
+Change Component Footprint: Designator=R6_120 Old Footprint=0805_WYN New Footprint=0603P
+Change Component Footprint: Designator=R_RST_10K Old Footprint=0805_WYN New Footprint=0603P
+Change Component Comment : Designator=LS0_1K Old Comment=1K New Comment=10K
+Change Component Comment : Designator=LS1_1K Old Comment=1K New Comment=10K
+Change Component Comment : Designator=LS2_1K Old Comment=1K New Comment=10K
+Change Component Comment : Designator=C4_10uf Old Comment=C_10uf New Comment=10uf
+Change Component Comment : Designator=C6_10uf Old Comment=C_10uf New Comment=10uf
+Change Component Designator: OldDesignator=VP232 NewDesignator=VP230
+Added Pin To Net: NetName=VCC_5V Pin=E_HEAD-1
+Added Pin To Net: NetName=GND Pin=E_HEAD-2
+Added Pin To Net: NetName=CANH Pin=R6_120-1
+Added Pin To Net: NetName=NetR6_120_2 Pin=R6_120-2
+Added Pin To Net: NetName=NetR6_120_2 Pin=TM-1
+Added Net: Name=NetR6_120_2
+Added Member To Class: ClassName=STM32电机 Member=Component  LOGO
+Added Member To Class: ClassName=STM32电机 Member=Component USART3 三针串口
+Added Member To Class: ClassName=STM32电机 Member=Component VDD3 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA1 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA2 100nf
+Added Member To Class: ClassName=STM32电机 Member=Component VP230
+Added Room: Name=STM32电机

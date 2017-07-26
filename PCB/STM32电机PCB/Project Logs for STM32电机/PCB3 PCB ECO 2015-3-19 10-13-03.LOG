@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=VCC_3.3V Pin=C3_100nf-1
+Removed Pin From Net: NetName=GND Pin=C3_100nf-2
+Removed Pin From Net: NetName=VCC_3.3V Pin=VDDA_10uf-1
+Removed Pin From Net: NetName=GND Pin=VDDA_10uf-2
+Removed Member From Class: ClassName=STM32电机 Member=C3_100nf
+Change Component Designator: OldDesignator=C1_100nf NewDesignator=VDD1
+Change Component Designator: OldDesignator=C2_100nf NewDesignator=VDD2
+Change Component Designator: OldDesignator=C4_100nf NewDesignator=VDD4
+Added Component: Designator=VDD3(0805_WYN)
+Added Component: Designator=VDDA1(0805_WYN)
+Added Component: Designator=VDDA2(0603_WYH)
+Added Pin To Net: NetName=RESET Pin=JTAG-5
+Added Pin To Net: NetName=VCC_3.3V Pin=VDD3-1
+Added Pin To Net: NetName=GND Pin=VDD3-2
+Added Pin To Net: NetName=VCC_3.3V Pin=VDDA1-1
+Added Pin To Net: NetName=GND Pin=VDDA1-2
+Added Pin To Net: NetName=VCC_3.3V Pin=VDDA2-1
+Added Pin To Net: NetName=GND Pin=VDDA2-2
+Added Member To Class: ClassName=STM32电机 Member=Component  LOGO
+Added Member To Class: ClassName=STM32电机 Member=Component VDD3 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA1 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA2 100nf
+Added Member To Class: ClassName=STM32电机 Member=Component VP230
+Added Room: Name=STM32电机

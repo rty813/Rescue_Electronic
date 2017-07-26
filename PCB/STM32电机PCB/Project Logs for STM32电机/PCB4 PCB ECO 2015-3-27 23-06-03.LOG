@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=RESET Pin=JTAG-5
+Removed Pin From Net: NetName=VCC_3.3V Pin=R_HALF1-1
+Removed Pin From Net: NetName=GND Pin=R_HALF2-1
+Removed Pin From Net: NetName=GND Pin=VP230-8
+Removed Member From Class: ClassName=STM32电机 Member=R_HALF1
+Removed Member From Class: ClassName=STM32电机 Member=R_HALF2
+Added Member To Class: ClassName=STM32电机 Member=Component  LOGO
+Added Member To Class: ClassName=STM32电机 Member=Component USART3 三针串口
+Added Member To Class: ClassName=STM32电机 Member=Component VDD3 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA1 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA2 100nf
+Added Member To Class: ClassName=STM32电机 Member=Component VP230
+Added Room: Name=STM32电机

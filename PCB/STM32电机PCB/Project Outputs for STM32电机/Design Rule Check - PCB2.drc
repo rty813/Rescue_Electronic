@@ -1,0 +1,584 @@
+Protel Design System Design Rule Check
+PCB File : D:\Users\C\Desktop\寰堔\PCB\STM32萇儂PCB\PCB2.PcbDoc
+Date     : 2015/1/23
+Time     : 10:53:06
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Violation between Text "STM32_1" (4045mil,3050mil)  Top Overlay and 
+                     Arc (4407.68mil,3138.742mil)  Top Overlay
+   Violation between Text "STM32_1" (4045mil,3050mil)  Top Overlay and 
+                     Arc (3942.222mil,3052.929mil)  Top Overlay
+   Violation between Text "C4_10uf" (3469mil,2756mil)  Top Overlay and 
+                     Arc (3816.357mil,2925.65mil)  Top Overlay
+   Violation between Text "E_HEAD" (3489.5mil,1998.5mil)  Top Overlay and 
+                     Arc (3680mil,2014.599mil)  Top Overlay
+   Violation between Text "LS0_1K" (4570mil,2210mil)  Top Overlay and 
+                     Track (4510mil,1910mil)(4560mil,1910mil)  Top Overlay
+   Violation between Text "LS2_1K" (4100mil,2195mil)  Top Overlay and 
+                     Track (4180mil,2080mil)(4180mil,2155mil)  Top Overlay
+   Violation between Text "LS2_1K" (4100mil,2195mil)  Top Overlay and 
+                     Track (4180mil,1965mil)(4180mil,2040mil)  Top Overlay
+   Violation between Text "LS2_1K" (4100mil,2195mil)  Top Overlay and 
+                     Track (4180mil,1805mil)(4180mil,1880mil)  Top Overlay
+   Violation between Text "LS0_1K" (4570mil,2210mil)  Top Overlay and 
+                     Track (4540mil,1965mil)(4540mil,2040mil)  Top Overlay
+   Violation between Text "R_RST_10K" (3493.5mil,2975.5mil)  Top Overlay and 
+                     Track (3602mil,2990mil)(3602mil,3070mil)  Top Overlay
+   Violation between Text "R_RST_10K" (3493.5mil,2975.5mil)  Top Overlay and 
+                     Track (3458mil,2990mil)(3602mil,2990mil)  Top Overlay
+   Violation between Text "C5_100nf" (3635mil,2619mil)  Top Overlay and 
+                     Track (3902.802mil,2695mil)(4145mil,2937.198mil)  Top Overlay
+   Violation between Text "R_LED_4.7K" (3868.5mil,2380.5mil)  Top Overlay and 
+                     Track (4145mil,2452.802mil)(4387.198mil,2695mil)  Top Overlay
+   Violation between Text "R_LED_4.7K" (3868.5mil,2380.5mil)  Top Overlay and 
+                     Track (3902.802mil,2695mil)(4145mil,2452.802mil)  Top Overlay
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Track (3902.802mil,2695mil)(4145mil,2452.802mil)  Top Overlay
+   Violation between Text "C5_100nf" (3635mil,2619mil)  Top Overlay and 
+                     Track (3902.802mil,2695mil)(4145mil,2452.802mil)  Top Overlay
+   Violation between Text "E_LED" (3864mil,2160mil)  Top Overlay and 
+                     Track (3865mil,2145mil)(3865mil,2220mil)  Top Overlay
+   Violation between Text "E_LED" (3864mil,2160mil)  Top Overlay and 
+                     Track (3955mil,2145mil)(3955mil,2220mil)  Top Overlay
+   Violation between Text "E_BUTTON" (3518.5mil,2259.5mil)  Top Overlay and 
+                     Track (3955mil,2260mil)(3955mil,2335mil)  Top Overlay
+   Violation between Text "E_BUTTON" (3518.5mil,2259.5mil)  Top Overlay and 
+                     Track (3865mil,2260mil)(3865mil,2335mil)  Top Overlay
+   Violation between Text "E_LED" (3864mil,2160mil)  Top Overlay and 
+                     Track (3865mil,2145mil)(3955mil,2145mil)  Top Overlay
+   Violation between Text "E_BUTTON" (3518.5mil,2259.5mil)  Top Overlay and 
+                     Track (3865mil,2335mil)(3955mil,2335mil)  Top Overlay
+   Violation between Text "1117_3.3" (3311mil,2632mil)  Top Overlay and 
+                     Track (3465mil,2710mil)(3540mil,2710mil)  Top Overlay
+   Violation between Text "1117_3.3" (3311mil,2632mil)  Top Overlay and 
+                     Track (3465mil,2620mil)(3540mil,2620mil)  Top Overlay
+   Violation between Text "1117_3.3" (3311mil,2632mil)  Top Overlay and 
+                     Track (3580mil,2620mil)(3655mil,2620mil)  Top Overlay
+   Violation between Text "C5_100nf" (3635mil,2619mil)  Top Overlay and 
+                     Track (3580mil,2620mil)(3655mil,2620mil)  Top Overlay
+   Violation between Text "1117_3.3" (3311mil,2632mil)  Top Overlay and 
+                     Track (3580mil,2710mil)(3655mil,2710mil)  Top Overlay
+   Violation between Text "1117_3.3" (3311mil,2632mil)  Top Overlay and 
+                     Track (3465mil,2620mil)(3465mil,2710mil)  Top Overlay
+   Violation between Text "1117_3.3" (3311mil,2632mil)  Top Overlay and 
+                     Track (3655mil,2620mil)(3655mil,2710mil)  Top Overlay
+   Violation between Text "C5_100nf" (3635mil,2619mil)  Top Overlay and 
+                     Track (3655mil,2620mil)(3655mil,2710mil)  Top Overlay
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Track (3628.859mil,2575mil)(3741.143mil,2575mil)  Top Overlay
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Track (3741.143mil,2514.96mil)(3741.143mil,2575mil)  Top Overlay
+   Violation between Text "E_BUTTON" (3518.5mil,2259.5mil)  Top Overlay and 
+                     Track (3650mil,2260mil)(3725mil,2260mil)  Top Overlay
+   Violation between Text "E_BUTTON" (3518.5mil,2259.5mil)  Top Overlay and 
+                     Track (3765mil,2260mil)(3840mil,2260mil)  Top Overlay
+   Violation between Text "E_BUTTON" (3518.5mil,2259.5mil)  Top Overlay and 
+                     Track (3650mil,2260mil)(3650mil,2350mil)  Top Overlay
+   Violation between Text "E_BUTTON" (3518.5mil,2259.5mil)  Top Overlay and 
+                     Track (3840mil,2260mil)(3840mil,2350mil)  Top Overlay
+   Violation between Text "C6_10uf" (3654mil,2396mil)  Top Overlay and 
+                     Track (3730mil,2383.859mil)(3730mil,2496.143mil)  Top Overlay
+   Violation between Text "C6_10uf" (3654mil,2396mil)  Top Overlay and 
+                     Track (3670mil,2383.859mil)(3670mil,2496.143mil)  Top Overlay
+   Violation between Text "C6_10uf" (3654mil,2396mil)  Top Overlay and 
+                     Track (3670mil,2383.859mil)(3730mil,2383.859mil)  Top Overlay
+   Violation between Text "8MHZ" (3687mil,3222mil)  Top Overlay and 
+                     Track (3688.859mil,3225mil)(3801.143mil,3225mil)  Top Overlay
+   Violation between Text "8MHZ" (3687mil,3222mil)  Top Overlay and 
+                     Track (3688.859mil,3285mil)(3801.143mil,3285mil)  Top Overlay
+   Violation between Text "8MHZ" (3687mil,3222mil)  Top Overlay and 
+                     Track (3688.859mil,3225mil)(3688.859mil,3285mil)  Top Overlay
+   Violation between Text "8MHZ" (3687mil,3222mil)  Top Overlay and 
+                     Track (3801.143mil,3224.96mil)(3801.143mil,3285mil)  Top Overlay
+   Violation between Text "RST_BUTTON" (3570mil,2880mil)  Top Overlay and 
+                     Track (3490mil,2740mil)(3490mil,2815mil)  Top Overlay
+   Violation between Text "C4_10uf" (3469mil,2756mil)  Top Overlay and 
+                     Track (3490mil,2740mil)(3490mil,2815mil)  Top Overlay
+   Violation between Text "RST_BUTTON" (3570mil,2880mil)  Top Overlay and 
+                     Track (3580mil,2740mil)(3580mil,2815mil)  Top Overlay
+   Violation between Text "C4_10uf" (3469mil,2756mil)  Top Overlay and 
+                     Track (3580mil,2740mil)(3580mil,2815mil)  Top Overlay
+   Violation between Text "RST_BUTTON" (3570mil,2880mil)  Top Overlay and 
+                     Track (3580mil,2855mil)(3580mil,2930mil)  Top Overlay
+   Violation between Text "RST_BUTTON" (3570mil,2880mil)  Top Overlay and 
+                     Track (3490mil,2855mil)(3490mil,2930mil)  Top Overlay
+   Violation between Text "C4_10uf" (3469mil,2756mil)  Top Overlay and 
+                     Track (3490mil,2740mil)(3580mil,2740mil)  Top Overlay
+   Violation between Text "P_5_3.3_G" (4802mil,2559mil)  Top Overlay and 
+                     Track (5050mil,2535mil)(5050mil,3035mil)  Top Overlay
+   Violation between Text "P_5_3.3_G" (4802mil,2559mil)  Top Overlay and 
+                     Track (5150mil,2535mil)(5150mil,3035mil)  Top Overlay
+   Violation between Text "R_HALF1" (4663.5mil,3080.5mil)  Top Overlay and 
+                     Track (4850mil,3075mil)(4850mil,3150mil)  Top Overlay
+   Violation between Text "R_HALF2" (4813.5mil,3080.5mil)  Top Overlay and 
+                     Track (4850mil,3075mil)(4850mil,3150mil)  Top Overlay
+   Violation between Text "R_HALF1" (4663.5mil,3080.5mil)  Top Overlay and 
+                     Track (4940mil,3075mil)(4940mil,3150mil)  Top Overlay
+   Violation between Text "R_HALF2" (4813.5mil,3080.5mil)  Top Overlay and 
+                     Track (4940mil,3075mil)(4940mil,3150mil)  Top Overlay
+   Violation between Text "USART4" (4936mil,3069mil)  Top Overlay and 
+                     Track (4940mil,3075mil)(4940mil,3150mil)  Top Overlay
+   Violation between Text "R_HALF1" (4663.5mil,3080.5mil)  Top Overlay and 
+                     Track (4850mil,3075mil)(4940mil,3075mil)  Top Overlay
+   Violation between Text "R_HALF2" (4813.5mil,3080.5mil)  Top Overlay and 
+                     Track (4850mil,3075mil)(4940mil,3075mil)  Top Overlay
+   Violation between Text "USART4" (4936mil,3069mil)  Top Overlay and 
+                     Track (4850mil,3075mil)(4940mil,3075mil)  Top Overlay
+   Violation between Text "STM32_1" (4045mil,3050mil)  Top Overlay and 
+                     Track (4386.466mil,3117.529mil)(4530.716mil,2973.279mil)  Top Overlay
+   Violation between Text "R_HALF1" (4663.5mil,3080.5mil)  Top Overlay and 
+                     Track (4965mil,3070mil)(4965mil,3270mil)  Top Overlay
+   Violation between Text "R_HALF2" (4813.5mil,3080.5mil)  Top Overlay and 
+                     Track (4965mil,3070mil)(4965mil,3270mil)  Top Overlay
+   Violation between Text "USART4" (4936mil,3069mil)  Top Overlay and 
+                     Track (4965mil,3070mil)(4965mil,3270mil)  Top Overlay
+   Violation between Text "R_HALF1" (4663.5mil,3080.5mil)  Top Overlay and 
+                     Track (4965mil,3070mil)(5065mil,3070mil)  Top Overlay
+   Violation between Text "R_HALF2" (4813.5mil,3080.5mil)  Top Overlay and 
+                     Track (4965mil,3070mil)(5065mil,3070mil)  Top Overlay
+   Violation between Text "USART4" (4936mil,3069mil)  Top Overlay and 
+                     Track (4965mil,3070mil)(5065mil,3070mil)  Top Overlay
+   Violation between Text "JTAG" (5056mil,3069mil)  Top Overlay and 
+                     Track (4965mil,3070mil)(5065mil,3070mil)  Top Overlay
+   Violation between Text "R_HALF2" (4813.5mil,3080.5mil)  Top Overlay and 
+                     Track (5065mil,3070mil)(5065mil,3270mil)  Top Overlay
+   Violation between Text "USART4" (4936mil,3069mil)  Top Overlay and 
+                     Track (5065mil,3070mil)(5065mil,3270mil)  Top Overlay
+   Violation between Text "JTAG" (5056mil,3069mil)  Top Overlay and 
+                     Track (5065mil,3070mil)(5065mil,3270mil)  Top Overlay
+   Violation between Text "C_CAN_10UF" (4433.5mil,3580.5mil)  Top Overlay and 
+                     Track (4820mil,3350mil)(4820mil,3650mil)  Top Overlay
+   Violation between Text "C_CAN_104" (4316.5mil,3550.5mil)  Top Overlay and 
+                     Track (4820mil,3350mil)(4820mil,3650mil)  Top Overlay
+   Violation between Text "C_CAN_10UF" (4433.5mil,3580.5mil)  Top Overlay and 
+                     Track (4790mil,3650mil)(4920mil,3650mil)  Top Overlay
+   Violation between Text "C_CAN_10UF" (4433.5mil,3580.5mil)  Top Overlay and 
+                     Track (4790mil,3350mil)(4790mil,3650mil)  Top Overlay
+   Violation between Text "C_CAN_104" (4316.5mil,3550.5mil)  Top Overlay and 
+                     Track (4790mil,3350mil)(4790mil,3650mil)  Top Overlay
+   Violation between Text "TM" (4971.5mil,3303.5mil)  Top Overlay and 
+                     Track (4790mil,3350mil)(5020mil,3350mil)  Top Overlay
+   Violation between Text "R6_120次" (4853.5mil,3310.5mil)  Top Overlay and 
+                     Track (4790mil,3350mil)(5020mil,3350mil)  Top Overlay
+   Violation between Text "TM" (4971.5mil,3303.5mil)  Top Overlay and 
+                     Track (5020mil,3350mil)(5020mil,3650mil)  Top Overlay
+   Violation between Text "R6_120次" (4853.5mil,3310.5mil)  Top Overlay and 
+                     Track (5020mil,3350mil)(5020mil,3650mil)  Top Overlay
+   Violation between Text "C_CAN_10UF" (4433.5mil,3580.5mil)  Top Overlay and 
+                     Track (5020mil,3350mil)(5020mil,3650mil)  Top Overlay
+   Violation between Text "C_CAN_10UF" (4433.5mil,3580.5mil)  Top Overlay and 
+                     Track (4920mil,3650mil)(5020mil,3650mil)  Top Overlay
+   Violation between Text "C_CAN_104" (4316.5mil,3550.5mil)  Top Overlay and 
+                     Track (4430mil,3460mil)(4430mil,3535mil)  Top Overlay
+   Violation between Text "C_CAN_104" (4316.5mil,3550.5mil)  Top Overlay and 
+                     Track (4430mil,3535mil)(4520mil,3535mil)  Top Overlay
+   Violation between Text "C_RST_0.1uf" (3695mil,3329mil)  Top Overlay and 
+                     Track (4310mil,3393.859mil)(4310mil,3506.143mil)  Top Overlay
+   Violation between Text "C_RST_0.1uf" (3695mil,3329mil)  Top Overlay and 
+                     Track (4310mil,3393.859mil)(4370mil,3393.859mil)  Top Overlay
+   Violation between Text "R_RST_10K" (3493.5mil,2975.5mil)  Top Overlay and 
+                     Track (3741.403mil,2985.754mil)(3882.825mil,3127.175mil)  Top Overlay
+   Violation between Text "C4_10uf" (3469mil,2756mil)  Top Overlay and 
+                     Track (3815.65mil,2791.299mil)(3875.754mil,2851.403mil)  Top Overlay
+   Violation between Text "R_RST_10K" (3493.5mil,2975.5mil)  Top Overlay and 
+                     Track (3682.006mil,2926.357mil)(3882.825mil,3127.175mil)  Top Overlay
+   Violation between Text "R_RST_10K" (3493.5mil,2975.5mil)  Top Overlay and 
+                     Track (3875.754mil,2851.403mil)(4076.572mil,3052.222mil)  Top Overlay
+   Violation between Text "STM32_1" (4045mil,3050mil)  Top Overlay and 
+                     Track (3875.754mil,2851.403mil)(4076.572mil,3052.222mil)  Top Overlay
+   Violation between Text "E_HEAD" (3489.5mil,1998.5mil)  Top Overlay and 
+                     Track (3535mil,1975mil)(3735mil,1975mil)  Top Overlay
+   Violation between Text "CANH_CANL" (4795mil,3695mil)  Top Overlay and 
+                     Track (5018mil,3710mil)(5018mil,4570mil)  Top Overlay
+   Violation between Text "CANH_CANL" (4795mil,3695mil)  Top Overlay and 
+                     Track (4658mil,3710mil)(5018mil,3710mil)  Top Overlay
+   Violation between Text "CANH_CANL" (4795mil,3695mil)  Top Overlay and 
+                     Track (4705mil,3710mil)(4975mil,3710mil)  Top Overlay
+   Violation between Text "M3_4" (4660mil,2085mil)  Top Overlay and 
+                     Track (4655mil,2095mil)(5155mil,2095mil)  Top Overlay
+   Violation between Text "M3_4" (4660mil,2085mil)  Top Overlay and 
+                     Track (4655mil,2065mil)(5155mil,2065mil)  Top Overlay
+   Violation between Text "M3_4" (4660mil,2085mil)  Top Overlay and 
+                     Track (4655mil,2065mil)(4655mil,2295mil)  Top Overlay
+   Violation between Text "5" (5160mil,2345mil)  Top Overlay and 
+                     Track (5150mil,2315mil)(5150mil,2515mil)  Top Overlay
+   Violation between Text "6" (5160mil,2445mil)  Top Overlay and 
+                     Track (5150mil,2315mil)(5150mil,2515mil)  Top Overlay
+   Violation between Text "1" (4820mil,2345mil)  Top Overlay and 
+                     Track (4850mil,2315mil)(4850mil,2515mil)  Top Overlay
+   Violation between Text "2" (4800mil,2445mil)  Top Overlay and 
+                     Track (4850mil,2315mil)(4850mil,2515mil)  Top Overlay
+   Violation between Text "M1_2" (4660mil,2340mil)  Top Overlay and 
+                     Track (4850mil,2315mil)(4850mil,2515mil)  Top Overlay
+   Violation between Text "E_LED" (3864mil,2160mil)  Top Overlay and 
+                     Text "LS2_1K" (4100mil,2195mil)  Top Overlay
+   Violation between Text "C4_10uf" (3469mil,2756mil)  Top Overlay and 
+                     Text "RST_BUTTON" (3570mil,2880mil)  Top Overlay
+   Violation between Text "C5_100nf" (3635mil,2619mil)  Top Overlay and 
+                     Text "1117_3.3" (3311mil,2632mil)  Top Overlay
+   Violation between Text "C6_10uf" (3654mil,2396mil)  Top Overlay and 
+                     Text "R_LED_4.7K" (3868.5mil,2380.5mil)  Top Overlay
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Text "C5_100nf" (3635mil,2619mil)  Top Overlay
+   Violation between Text "R_HALF1" (4663.5mil,3080.5mil)  Top Overlay and 
+                     Text "JTAG" (5056mil,3069mil)  Top Overlay
+   Violation between Text "R_HALF2" (4813.5mil,3080.5mil)  Top Overlay and 
+                     Text "JTAG" (5056mil,3069mil)  Top Overlay
+   Violation between Text "USART4" (4936mil,3069mil)  Top Overlay and 
+                     Text "JTAG" (5056mil,3069mil)  Top Overlay
+   Violation between Text "TM" (4971.5mil,3303.5mil)  Top Overlay and 
+                     Text "R6_120次" (4853.5mil,3310.5mil)  Top Overlay
+   Violation between Text "C_CAN_104" (4316.5mil,3550.5mil)  Top Overlay and 
+                     Text "C_CAN_10UF" (4433.5mil,3580.5mil)  Top Overlay
+   Violation between Text "R_HALF1" (4663.5mil,3080.5mil)  Top Overlay and 
+                     Text "R_HALF2" (4813.5mil,3080.5mil)  Top Overlay
+   Violation between Text "USART4" (4936mil,3069mil)  Top Overlay and 
+                     Text "R_HALF2" (4813.5mil,3080.5mil)  Top Overlay
+   Violation between Text "USART4" (4936mil,3069mil)  Top Overlay and 
+                     Text "R_HALF1" (4663.5mil,3080.5mil)  Top Overlay
+   Violation between Text "1" (4820mil,2345mil)  Top Overlay and 
+                     Text "M1_2" (4660mil,2340mil)  Top Overlay
+Rule Violations :117
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Text "P_5_3.3_G" (4802mil,2559mil)  Top Overlay and 
+                     Pad JTAG-1(5100mil,2585mil)  Multi-Layer
+   Violation between Text "R_HALF1" (4663.5mil,3080.5mil)  Top Overlay and 
+                     Pad TM-1(5015mil,3120mil)  Multi-Layer
+   Violation between Text "R_HALF2" (4813.5mil,3080.5mil)  Top Overlay and 
+                     Pad TM-1(5015mil,3120mil)  Multi-Layer
+   Violation between Text "USART4" (4936mil,3069mil)  Top Overlay and 
+                     Pad TM-1(5015mil,3120mil)  Multi-Layer
+   Violation between Text "C_CAN_10UF" (4433.5mil,3580.5mil)  Top Overlay and 
+                     Pad CANH_CANL-1(4920mil,3550mil)  Multi-Layer
+   Violation between Text "R_RST_10K" (3493.5mil,2975.5mil)  Top Overlay and 
+                     Pad 8MHZ-2(3808.579mil,2918.579mil)  Multi-Layer
+   Violation between Text "R_RST_10K" (3493.5mil,2975.5mil)  Top Overlay and 
+                     Pad 8MHZ-1(3950mil,3060mil)  Multi-Layer
+   Violation between Track (3485mil,1930mil)(3785mil,1930mil)  Top Overlay and 
+                     Pad E_HEAD-1(3585mil,1930mil)  Multi-Layer
+   Violation between Track (3485mil,1930mil)(3785mil,1930mil)  Top Overlay and 
+                     Pad E_HEAD-2(3685mil,1930mil)  Multi-Layer
+   Violation between Text "E_HEAD" (3489.5mil,1998.5mil)  Top Overlay and 
+                     Pad E_BUTTON-6(3535mil,2015mil)  Multi-Layer
+   Violation between Text "E_HEAD" (3489.5mil,1998.5mil)  Top Overlay and 
+                     Pad E_BUTTON-5(3535mil,2095mil)  Multi-Layer
+   Violation between Text "E_HEAD" (3489.5mil,1998.5mil)  Top Overlay and 
+                     Pad E_BUTTON-1(3735mil,2015mil)  Multi-Layer
+   Violation between Text "M1_2" (4660mil,2340mil)  Top Overlay and 
+                     Pad P_5_3.3_G-1(4900mil,2365mil)  Multi-Layer
+   Violation between Track (3458mil,2990mil)(3602mil,2990mil)  Top Overlay and 
+                     Pad RST_BUTTON-2(3530mil,2990mil)  Top Layer
+   Violation between Text "R_RST_10K" (3493.5mil,2975.5mil)  Top Overlay and 
+                     Pad RST_BUTTON-2(3530mil,2990mil)  Top Layer
+   Violation between Track (3530mil,3310mil)(3602mil,3310mil)  Top Overlay and 
+                     Pad RST_BUTTON-1(3530mil,3310mil)  Top Layer
+   Violation between Track (3458mil,3310mil)(3602mil,3310mil)  Top Overlay and 
+                     Pad RST_BUTTON-1(3530mil,3310mil)  Top Layer
+   Violation between Track (3305.552mil,2497mil)(3585.552mil,2497mil)  Top Overlay and 
+                     Pad 1117_3.3-4(3444.882mil,2548.544mil)  Top Layer
+   Violation between Track (3305.552mil,2347mil)(3585.552mil,2347mil)  Top Overlay and 
+                     Pad 1117_3.3-1(3355mil,2295mil)  Top Layer
+   Violation between Track (3305.552mil,2347mil)(3585.552mil,2347mil)  Top Overlay and 
+                     Pad 1117_3.3-2(3445.552mil,2295mil)  Top Layer
+   Violation between Track (3305.552mil,2347mil)(3585.552mil,2347mil)  Top Overlay and 
+                     Pad 1117_3.3-3(3536.102mil,2295mil)  Top Layer
+   Violation between Text "E_BUTTON" (3518.5mil,2259.5mil)  Top Overlay and 
+                     Pad 1117_3.3-3(3536.102mil,2295mil)  Top Layer
+   Violation between Text "C5_100nf" (3635mil,2619mil)  Top Overlay and 
+                     Pad STM32_1-17(3885.403mil,2644.194mil)  Top Layer
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Pad STM32_1-18(3899.322mil,2630.275mil)  Top Layer
+   Violation between Text "C5_100nf" (3635mil,2619mil)  Top Overlay and 
+                     Pad STM32_1-18(3899.322mil,2630.275mil)  Top Layer
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Pad STM32_1-19(3913.242mil,2616.355mil)  Top Layer
+   Violation between Text "C5_100nf" (3635mil,2619mil)  Top Overlay and 
+                     Pad STM32_1-19(3913.242mil,2616.355mil)  Top Layer
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Pad STM32_1-20(3927.161mil,2602.436mil)  Top Layer
+   Violation between Text "C5_100nf" (3635mil,2619mil)  Top Overlay and 
+                     Pad STM32_1-20(3927.161mil,2602.436mil)  Top Layer
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Pad STM32_1-21(3941.08mil,2588.516mil)  Top Layer
+   Violation between Text "C5_100nf" (3635mil,2619mil)  Top Overlay and 
+                     Pad STM32_1-21(3941.08mil,2588.516mil)  Top Layer
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Pad STM32_1-22(3955mil,2574.597mil)  Top Layer
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Pad STM32_1-23(3968.919mil,2560.678mil)  Top Layer
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Pad STM32_1-24(3982.839mil,2546.758mil)  Top Layer
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Pad STM32_1-25(3996.758mil,2532.839mil)  Top Layer
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Pad STM32_1-26(4010.677mil,2518.919mil)  Top Layer
+   Violation between Text "C6_10uf" (3654mil,2396mil)  Top Overlay and 
+                     Pad STM32_1-28(4038.516mil,2491.08mil)  Top Layer
+   Violation between Text "C6_10uf" (3654mil,2396mil)  Top Overlay and 
+                     Pad STM32_1-29(4052.436mil,2477.161mil)  Top Layer
+   Violation between Text "R_LED_4.7K" (3868.5mil,2380.5mil)  Top Overlay and 
+                     Pad STM32_1-30(4066.355mil,2463.242mil)  Top Layer
+   Violation between Text "R_LED_4.7K" (3868.5mil,2380.5mil)  Top Overlay and 
+                     Pad STM32_1-31(4080.275mil,2449.322mil)  Top Layer
+   Violation between Text "R_LED_4.7K" (3868.5mil,2380.5mil)  Top Overlay and 
+                     Pad STM32_1-32(4094.194mil,2435.403mil)  Top Layer
+   Violation between Text "R_LED_4.7K" (3868.5mil,2380.5mil)  Top Overlay and 
+                     Pad STM32_1-33(4195.806mil,2435.403mil)  Top Layer
+   Violation between Text "R_LED_4.7K" (3868.5mil,2380.5mil)  Top Overlay and 
+                     Pad STM32_1-34(4209.725mil,2449.322mil)  Top Layer
+   Violation between Text "R_LED_4.7K" (3868.5mil,2380.5mil)  Top Overlay and 
+                     Pad STM32_1-35(4223.645mil,2463.242mil)  Top Layer
+   Violation between Text "R_LED_4.7K" (3868.5mil,2380.5mil)  Top Overlay and 
+                     Pad STM32_1-36(4237.564mil,2477.161mil)  Top Layer
+   Violation between Text "E_LED" (3864mil,2160mil)  Top Overlay and 
+                     Pad R_LED_4.7K-1(3910mil,2195mil)  Top Layer
+   Violation between Text "E_BUTTON" (3518.5mil,2259.5mil)  Top Overlay and 
+                     Pad R_LED_4.7K-2(3910mil,2285mil)  Top Layer
+   Violation between Text "1117_3.3" (3311mil,2632mil)  Top Overlay and 
+                     Pad C4_10uf-1(3515mil,2665mil)  Top Layer
+   Violation between Text "1117_3.3" (3311mil,2632mil)  Top Overlay and 
+                     Pad C4_10uf-2(3605mil,2665mil)  Top Layer
+   Violation between Text "C5_100nf" (3635mil,2619mil)  Top Overlay and 
+                     Pad C4_10uf-2(3605mil,2665mil)  Top Layer
+   Violation between Track (3628.859mil,2515mil)(3628.859mil,2575mil)  Top Overlay and 
+                     Pad C5_100nf-1(3655.001mil,2545mil)  Top Layer
+   Violation between Track (3628.859mil,2515mil)(3741.143mil,2515mil)  Top Overlay and 
+                     Pad C5_100nf-1(3655.001mil,2545mil)  Top Layer
+   Violation between Track (3628.859mil,2575mil)(3741.143mil,2575mil)  Top Overlay and 
+                     Pad C5_100nf-1(3655.001mil,2545mil)  Top Layer
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Pad C5_100nf-1(3655.001mil,2545mil)  Top Layer
+   Violation between Track (3741.143mil,2514.96mil)(3741.143mil,2575mil)  Top Overlay and 
+                     Pad C5_100nf-2(3715.001mil,2545mil)  Top Layer
+   Violation between Track (3628.859mil,2515mil)(3741.143mil,2515mil)  Top Overlay and 
+                     Pad C5_100nf-2(3715.001mil,2545mil)  Top Layer
+   Violation between Track (3628.859mil,2575mil)(3741.143mil,2575mil)  Top Overlay and 
+                     Pad C5_100nf-2(3715.001mil,2545mil)  Top Layer
+   Violation between Text "C7_100nf" (3676.5mil,2540.5mil)  Top Overlay and 
+                     Pad C5_100nf-2(3715.001mil,2545mil)  Top Layer
+   Violation between Text "E_BUTTON" (3518.5mil,2259.5mil)  Top Overlay and 
+                     Pad C6_10uf-1(3700mil,2305mil)  Top Layer
+   Violation between Text "E_BUTTON" (3518.5mil,2259.5mil)  Top Overlay and 
+                     Pad C6_10uf-2(3790mil,2305mil)  Top Layer
+   Violation between Track (3670mil,2383.859mil)(3670mil,2496.143mil)  Top Overlay and 
+                     Pad C7_100nf-1(3700mil,2410.001mil)  Top Layer
+   Violation between Track (3730mil,2383.859mil)(3730mil,2496.143mil)  Top Overlay and 
+                     Pad C7_100nf-1(3700mil,2410.001mil)  Top Layer
+   Violation between Track (3670mil,2383.859mil)(3730mil,2383.859mil)  Top Overlay and 
+                     Pad C7_100nf-1(3700mil,2410.001mil)  Top Layer
+   Violation between Text "C6_10uf" (3654mil,2396mil)  Top Overlay and 
+                     Pad C7_100nf-1(3700mil,2410.001mil)  Top Layer
+   Violation between Track (3670mil,2383.859mil)(3670mil,2496.143mil)  Top Overlay and 
+                     Pad C7_100nf-2(3700mil,2470.001mil)  Top Layer
+   Violation between Track (3730mil,2383.859mil)(3730mil,2496.143mil)  Top Overlay and 
+                     Pad C7_100nf-2(3700mil,2470.001mil)  Top Layer
+   Violation between Track (3670mil,2496.143mil)(3730.04mil,2496.143mil)  Top Overlay and 
+                     Pad C7_100nf-2(3700mil,2470.001mil)  Top Layer
+   Violation between Text "C6_10uf" (3654mil,2396mil)  Top Overlay and 
+                     Pad C7_100nf-2(3700mil,2470.001mil)  Top Layer
+   Violation between Track (3688.859mil,3225mil)(3688.859mil,3285mil)  Top Overlay and 
+                     Pad C_RST_0.1uf-1(3715.001mil,3255mil)  Top Layer
+   Violation between Track (3688.859mil,3225mil)(3801.143mil,3225mil)  Top Overlay and 
+                     Pad C_RST_0.1uf-1(3715.001mil,3255mil)  Top Layer
+   Violation between Track (3688.859mil,3285mil)(3801.143mil,3285mil)  Top Overlay and 
+                     Pad C_RST_0.1uf-1(3715.001mil,3255mil)  Top Layer
+   Violation between Text "8MHZ" (3687mil,3222mil)  Top Overlay and 
+                     Pad C_RST_0.1uf-1(3715.001mil,3255mil)  Top Layer
+   Violation between Track (3801.143mil,3224.96mil)(3801.143mil,3285mil)  Top Overlay and 
+                     Pad C_RST_0.1uf-2(3775.001mil,3255mil)  Top Layer
+   Violation between Track (3688.859mil,3225mil)(3801.143mil,3225mil)  Top Overlay and 
+                     Pad C_RST_0.1uf-2(3775.001mil,3255mil)  Top Layer
+   Violation between Track (3688.859mil,3285mil)(3801.143mil,3285mil)  Top Overlay and 
+                     Pad C_RST_0.1uf-2(3775.001mil,3255mil)  Top Layer
+   Violation between Text "8MHZ" (3687mil,3222mil)  Top Overlay and 
+                     Pad C_RST_0.1uf-2(3775.001mil,3255mil)  Top Layer
+   Violation between Text "RST_BUTTON" (3570mil,2880mil)  Top Overlay and 
+                     Pad R_RST_10K-1(3535mil,2790mil)  Top Layer
+   Violation between Text "C4_10uf" (3469mil,2756mil)  Top Overlay and 
+                     Pad R_RST_10K-1(3535mil,2790mil)  Top Layer
+   Violation between Text "RST_BUTTON" (3570mil,2880mil)  Top Overlay and 
+                     Pad R_RST_10K-2(3535mil,2880mil)  Top Layer
+   Violation between Text "R_HALF1" (4663.5mil,3080.5mil)  Top Overlay and 
+                     Pad R6_120次-1(4895mil,3125mil)  Top Layer
+   Violation between Text "R_HALF2" (4813.5mil,3080.5mil)  Top Overlay and 
+                     Pad R6_120次-1(4895mil,3125mil)  Top Layer
+   Violation between Text "STM32_1" (4045mil,3050mil)  Top Overlay and 
+                     Pad VP230-1(4355mil,3050mil)  Top Layer
+   Violation between Text "STM32_1" (4045mil,3050mil)  Top Overlay and 
+                     Pad VP230-2(4391.062mil,3013.938mil)  Top Layer
+   Violation between Track (4310mil,3393.859mil)(4310mil,3506.143mil)  Top Overlay and 
+                     Pad C_CAN_104-1(4340mil,3420.001mil)  Top Layer
+   Violation between Track (4370mil,3393.859mil)(4370mil,3506.143mil)  Top Overlay and 
+                     Pad C_CAN_104-1(4340mil,3420.001mil)  Top Layer
+   Violation between Track (4310mil,3393.859mil)(4370mil,3393.859mil)  Top Overlay and 
+                     Pad C_CAN_104-1(4340mil,3420.001mil)  Top Layer
+   Violation between Track (4310mil,3393.859mil)(4310mil,3506.143mil)  Top Overlay and 
+                     Pad C_CAN_104-2(4340mil,3480.001mil)  Top Layer
+   Violation between Track (4370mil,3393.859mil)(4370mil,3506.143mil)  Top Overlay and 
+                     Pad C_CAN_104-2(4340mil,3480.001mil)  Top Layer
+   Violation between Track (4310mil,3506.143mil)(4370.04mil,3506.143mil)  Top Overlay and 
+                     Pad C_CAN_104-2(4340mil,3480.001mil)  Top Layer
+   Violation between Track (3928.484mil,3200.911mil)(3970.911mil,3158.485mil)  Bottom Overlay and 
+                     Pad C1_22PF-1(3931.212mil,3161.213mil)  Bottom Layer
+   Violation between Track (3891.514mil,3079.088mil)(3970.911mil,3158.485mil)  Bottom Overlay and 
+                     Pad C1_22PF-1(3931.212mil,3161.213mil)  Bottom Layer
+   Violation between Track (3849.088mil,3121.515mil)(3928.484mil,3200.911mil)  Bottom Overlay and 
+                     Pad C1_22PF-1(3931.212mil,3161.213mil)  Bottom Layer
+   Violation between Track (3849.088mil,3121.515mil)(3891.542mil,3079.06mil)  Bottom Overlay and 
+                     Pad C1_22PF-2(3888.786mil,3118.787mil)  Bottom Layer
+   Violation between Track (3891.514mil,3079.088mil)(3970.911mil,3158.485mil)  Bottom Overlay and 
+                     Pad C1_22PF-2(3888.786mil,3118.787mil)  Bottom Layer
+   Violation between Track (3849.088mil,3121.515mil)(3928.484mil,3200.911mil)  Bottom Overlay and 
+                     Pad C1_22PF-2(3888.786mil,3118.787mil)  Bottom Layer
+   Violation between Track (3664.089mil,2936.515mil)(3706.516mil,2894.089mil)  Bottom Overlay and 
+                     Pad C2_22PF-1(3703.788mil,2933.787mil)  Bottom Layer
+   Violation between Track (3664.089mil,2936.515mil)(3743.486mil,3015.912mil)  Bottom Overlay and 
+                     Pad C2_22PF-1(3703.788mil,2933.787mil)  Bottom Layer
+   Violation between Track (3706.516mil,2894.089mil)(3785.912mil,2973.485mil)  Bottom Overlay and 
+                     Pad C2_22PF-1(3703.788mil,2933.787mil)  Bottom Layer
+   Violation between Track (3743.458mil,3015.94mil)(3785.912mil,2973.485mil)  Bottom Overlay and 
+                     Pad C2_22PF-2(3746.214mil,2976.213mil)  Bottom Layer
+   Violation between Track (3664.089mil,2936.515mil)(3743.486mil,3015.912mil)  Bottom Overlay and 
+                     Pad C2_22PF-2(3746.214mil,2976.213mil)  Bottom Layer
+   Violation between Track (3706.516mil,2894.089mil)(3785.912mil,2973.485mil)  Bottom Overlay and 
+                     Pad C2_22PF-2(3746.214mil,2976.213mil)  Bottom Layer
+Rule Violations :101
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=100mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=3mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net XTAL2 Between Pad C2_22PF-2 (3746.214,2976.213mil) And Pad 8MHZ-2 (3808.579,2918.579mil)
+   Violation between Un-Routed Net Constraint: Net XTAL2 Between Pad 8MHZ-2 (3808.579,2918.579mil) And Pad STM32_1-6 (4024.597,2885mil)
+   Violation between Un-Routed Net Constraint: Net XTAL1 Between Pad C1_22PF-2 (3888.786,3118.787mil) And Pad 8MHZ-1 (3950,3060mil)
+   Violation between Un-Routed Net Constraint: Net XTAL1 Between Pad 8MHZ-1 (3950,3060mil) And Pad STM32_1-5 (4038.516,2898.92mil)
+   Violation between Un-Routed Net Constraint: Net VCC_E Between Pad E_BUTTON-6 (3535,2015mil) And Pad E_HEAD-1 (3585,1930mil)
+   Violation between Un-Routed Net Constraint: Net VCC_5V Between Pad C7_100nf-1 (3700,2410.001mil) And Pad C6_10uf-1 (3700,2305mil)
+   Violation between Un-Routed Net Constraint: Net VCC_5V Between Pad E_BUTTON-4 (3535,2175mil) And Pad 1117_3.3-3 (3536.102,2295mil)
+   Violation between Un-Routed Net Constraint: Net VCC_5V Between Pad BM4-10 (3740,4340mil) And Pad BM3-10 (4120,4340mil)
+   Violation between Un-Routed Net Constraint: Net VCC_5V Between Pad BM3-10 (4120,4340mil) And Pad BM2-10 (4500,4340mil)
+   Violation between Un-Routed Net Constraint: Net VCC_5V Between Pad BM2-10 (4500,4340mil) And Pad BM1-10 (4885,4340mil)
+   Violation between Un-Routed Net Constraint: Net VCC_5V Between Pad C7_100nf-1 (3700,2410.001mil) And Pad P_5_3.3_G-1 (4900,2365mil)
+   Violation between Un-Routed Net Constraint: Net VCC_5V Between Pad 1117_3.3-3 (3536.102,2295mil) And Pad C6_10uf-1 (3700,2305mil)
+   Violation between Un-Routed Net Constraint: Net VCC_5V Between Pad C7_100nf-1 (3700,2410.001mil) And Pad BM4-10 (3740,4340mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad P_5_3.3_G-3 (5000,2365mil) And Pad P_5_3.3_G-5 (5100,2365mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad STM32_1-1 (4094.194,2954.597mil) And Pad STM32_1-64 (4195.806,2954.597mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad C_CAN_104-2 (4340,3480.001mil) And Pad C_CAN_10UF-2 (4475,3485mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad C4_10uf-1 (3515,2665mil) And Pad R_RST_10K-1 (3535,2790mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad STM32_1-19 (3913.242,2616.355mil) And Pad STM32_1-13 (3927.161,2787.564mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad 1117_3.3-4 (3444.882,2548.544mil) And Pad C4_10uf-1 (3515,2665mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad 1117_3.3-4 (3444.882,2548.544mil) And Pad C5_100nf-1 (3655.001,2545mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad P_5_3.3_G-5 (5100,2365mil) And Pad JTAG-1 (5100,2585mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad 1117_3.3-4 (3444.882,2548.544mil) And Pad 1117_3.3-2 (3445.552,2295mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad STM32_1-64 (4195.806,2954.597mil) And Pad VP230-3 (4427.125,2977.875mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad R_LED_4.7K-2 (3910,2285mil) And Pad STM32_1-32 (4094.194,2435.403mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad STM32_1-48 (4404.597,2644.194mil) And Pad VP230-3 (4427.125,2977.875mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad VP230-3 (4427.125,2977.875mil) And Pad R_HALF1-1 (4705,2895mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad C5_100nf-1 (3655.001,2545mil) And Pad STM32_1-19 (3913.242,2616.355mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad STM32_1-13 (3927.161,2787.564mil) And Pad STM32_1-1 (4094.194,2954.597mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad R_LED_4.7K-2 (3910,2285mil) And Pad STM32_1-19 (3913.242,2616.355mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad VP230-3 (4427.125,2977.875mil) And Pad C_CAN_10UF-2 (4475,3485mil)
+   Violation between Un-Routed Net Constraint: Net VCC_3.3V Between Pad R_HALF1-1 (4705,2895mil) And Pad JTAG-1 (5100,2585mil)
+   Violation between Un-Routed Net Constraint: Net U4_TX Between Pad STM32_1-51 (4376.758,2773.645mil) And Pad USART4-2 (4980,2885mil)
+   Violation between Un-Routed Net Constraint: Net U4_RX Between Pad STM32_1-52 (4362.839,2787.564mil) And Pad USART4-1 (4980,2985mil)
+   Violation between Un-Routed Net Constraint: Net RESET Between Pad RST_BUTTON-1 (3530,3310mil) And Pad C_RST_0.1uf-1 (3715.001,3255mil)
+   Violation between Un-Routed Net Constraint: Net RESET Between Pad RST_BUTTON-1 (3530,3310mil) And Pad R_RST_10K-2 (3535,2880mil)
+   Violation between Un-Routed Net Constraint: Net RESET Between Pad R_RST_10K-2 (3535,2880mil) And Pad STM32_1-7 (4010.677,2871.081mil)
+   Violation between Un-Routed Net Constraint: Net RESET Between Pad STM32_1-7 (4010.677,2871.081mil) And Pad JTAG-5 (5100,2985mil)
+   Violation between Un-Routed Net Constraint: Net NetR_HALF1_2 Between Pad R_HALF1-2 (4705,2985mil) And Pad R_HALF2-2 (4855,2985mil)
+   Violation between Un-Routed Net Constraint: Net NetR_HALF1_2 Between Pad VP230-5 (4604.609,3083.234mil) And Pad R_HALF1-2 (4705,2985mil)
+   Violation between Un-Routed Net Constraint: Net NetR6_120次_1 Between Pad R6_120次-1 (4895,3125mil) And Pad TM-1 (5015,3120mil)
+   Violation between Un-Routed Net Constraint: Net NetLS2_1 Between Pad LS2-1 (4225,1830mil) And Pad LS2_1K-2 (4225,2015mil)
+   Violation between Un-Routed Net Constraint: Net NetLS1_1 Between Pad LS1-1 (4360,1830mil) And Pad LS1_1K-2 (4360,2015mil)
+   Violation between Un-Routed Net Constraint: Net NetLS0_1 Between Pad LS0-1 (4495,1830mil) And Pad LS0_1K-2 (4495,2015mil)
+   Violation between Un-Routed Net Constraint: Net NetE_LED_1 Between Pad E_LED-1 (3905,2010mil) And Pad R_LED_4.7K-1 (3910,2195mil)
+   Violation between Un-Routed Net Constraint: Net M4_PC9 Between Pad STM32_1-40 (4293.242,2532.839mil) And Pad M3_4-4 (5055,1940mil)
+   Violation between Un-Routed Net Constraint: Net M4_PC8 Between Pad STM32_1-39 (4279.323,2518.919mil) And Pad M3_4-3 (4955,1940mil)
+   Violation between Un-Routed Net Constraint: Net M3_PC7 Between Pad STM32_1-38 (4265.403,2505mil) And Pad M3_4-2 (4855,1940mil)
+   Violation between Un-Routed Net Constraint: Net M3_PC6 Between Pad STM32_1-37 (4251.484,2491.08mil) And Pad M3_4-1 (4755,1940mil)
+   Violation between Un-Routed Net Constraint: Net M2_PA11 Between Pad STM32_1-44 (4348.92,2588.517mil) And Pad M1_2-4 (5055,2195mil)
+   Violation between Un-Routed Net Constraint: Net M2_PA10 Between Pad STM32_1-43 (4335,2574.597mil) And Pad M1_2-3 (4955,2195mil)
+   Violation between Un-Routed Net Constraint: Net M1_PA9 Between Pad STM32_1-42 (4321.081,2560.678mil) And Pad M1_2-2 (4855,2195mil)
+   Violation between Un-Routed Net Constraint: Net M1_PA8 Between Pad STM32_1-41 (4307.161,2546.758mil) And Pad M1_2-1 (4755,2195mil)
+   Violation between Un-Routed Net Constraint: Net LS2 Between Pad STM32_1-34 (4209.725,2449.322mil) And Pad LS2_1K-1 (4225,2105mil)
+   Violation between Un-Routed Net Constraint: Net LS1 Between Pad STM32_1-35 (4223.645,2463.242mil) And Pad LS1_1K-1 (4360,2105mil)
+   Violation between Un-Routed Net Constraint: Net LS0 Between Pad STM32_1-36 (4237.564,2477.161mil) And Pad LS0_1K-1 (4495,2105mil)
+   Violation between Un-Routed Net Constraint: Net JTMS Between Pad STM32_1-46 (4376.758,2616.355mil) And Pad JTAG-2 (5100,2685mil)
+   Violation between Un-Routed Net Constraint: Net JTCK Between Pad STM32_1-49 (4404.597,2745.806mil) And Pad JTAG-3 (5100,2785mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad STM32_1-28 (4038.516,2491.08mil) And Pad STM32_1-31 (4080.275,2449.322mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C7_100nf-2 (3700,2470.001mil) And Pad C5_100nf-2 (3715.001,2545mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P_5_3.3_G-2 (4900,2465mil) And Pad P_5_3.3_G-4 (5000,2465mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P_5_3.3_G-4 (5000,2465mil) And Pad P_5_3.3_G-6 (5100,2465mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad LS2-2 (4225,1740mil) And Pad LS1-2 (4360,1740mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad LS1-2 (4360,1740mil) And Pad LS0-2 (4495,1740mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C_CAN_104-1 (4340,3420.001mil) And Pad C_CAN_10UF-1 (4475,3395mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad E_BUTTON-3 (3735,2175mil) And Pad C6_10uf-2 (3790,2305mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad USART4-3 (4980,2785mil) And Pad JTAG-4 (5100,2885mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C_CAN_10UF-1 (4475,3395mil) And Pad VP230-8 (4496.421,3191.421mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C4_10uf-2 (3605,2665mil) And Pad C5_100nf-2 (3715.001,2545mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad RST_BUTTON-2 (3530,2990mil) And Pad C2_22PF-1 (3703.788,2933.787mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R_HALF2-1 (4855,2895mil) And Pad USART4-3 (4980,2785mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C_RST_0.1uf-2 (3775.001,3255mil) And Pad C1_22PF-1 (3931.212,3161.213mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad STM32_1-63 (4209.725,2940.678mil) And Pad VP230-2 (4391.062,3013.938mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C5_100nf-2 (3715.001,2545mil) And Pad STM32_1-18 (3899.322,2630.275mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad BM3-2 (4020,4240mil) And Pad BM2-2 (4400,4240mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad BM4-2 (3640,4240mil) And Pad BM3-2 (4020,4240mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad STM32_1-47 (4390.678,2630.275mil) And Pad VP230-2 (4391.062,3013.938mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad BM2-2 (4400,4240mil) And Pad BM1-2 (4785,4240mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad E_BUTTON-3 (3735,2175mil) And Pad E_LED-2 (3905,1920mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad 1117_3.3-1 (3355,2295mil) And Pad C6_10uf-2 (3790,2305mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C7_100nf-2 (3700,2470.001mil) And Pad C6_10uf-2 (3790,2305mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad STM32_1-18 (3899.322,2630.275mil) And Pad STM32_1-28 (4038.516,2491.08mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad VP230-2 (4391.062,3013.938mil) And Pad VP230-8 (4496.421,3191.421mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad USART4-3 (4980,2785mil) And Pad P_5_3.3_G-4 (5000,2465mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C4_10uf-2 (3605,2665mil) And Pad C2_22PF-1 (3703.788,2933.787mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C2_22PF-1 (3703.788,2933.787mil) And Pad C_RST_0.1uf-2 (3775.001,3255mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad E_LED-2 (3905,1920mil) And Pad LS2-2 (4225,1740mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C_CAN_104-1 (4340,3420.001mil) And Pad BM2-2 (4400,4240mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad STM32_1-28 (4038.516,2491.08mil) And Pad STM32_1-47 (4390.678,2630.275mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad VP230-2 (4391.062,3013.938mil) And Pad R_HALF2-1 (4855,2895mil)
+   Violation between Un-Routed Net Constraint: Net GND_E Between Pad E_HEAD-2 (3685,1930mil) And Pad E_BUTTON-1 (3735,2015mil)
+   Violation between Un-Routed Net Constraint: Net CANTX Between Pad STM32_1-62 (4223.645,2926.758mil) And Pad VP230-1 (4355,3050mil)
+   Violation between Un-Routed Net Constraint: Net CANRX Between Pad STM32_1-61 (4237.564,2912.839mil) And Pad VP230-4 (4463.187,2941.813mil)
+   Violation between Un-Routed Net Constraint: Net CANL Between Pad CANH_CANL-2 (4920,3450mil) And Pad TM-2 (5015,3220mil)
+   Violation between Un-Routed Net Constraint: Net CANL Between Pad VP230-6 (4568.546,3119.296mil) And Pad TM-2 (5015,3220mil)
+   Violation between Un-Routed Net Constraint: Net CANH Between Pad R6_120次-2 (4895,3215mil) And Pad CANH_CANL-1 (4920,3550mil)
+   Violation between Un-Routed Net Constraint: Net CANH Between Pad VP230-7 (4532.484,3155.359mil) And Pad R6_120次-2 (4895,3215mil)
+   Violation between Un-Routed Net Constraint: Net B4_PA1 Between Pad BM4-8 (3740,4140mil) And Pad STM32_1-15 (3899.322,2759.725mil)
+   Violation between Un-Routed Net Constraint: Net B4_PA0 Between Pad BM4-7 (3740,4040mil) And Pad STM32_1-14 (3913.242,2773.645mil)
+   Violation between Un-Routed Net Constraint: Net B3_PB7 Between Pad STM32_1-59 (4265.403,2885mil) And Pad BM2-8 (4500,4140mil)
+   Violation between Un-Routed Net Constraint: Net B3_PB6 Between Pad STM32_1-58 (4279.322,2871.081mil) And Pad BM2-7 (4500,4040mil)
+   Violation between Un-Routed Net Constraint: Net B2_PA7 Between Pad STM32_1-23 (3968.919,2560.678mil) And Pad BM3-8 (4120,4140mil)
+   Violation between Un-Routed Net Constraint: Net B2_PA6 Between Pad STM32_1-22 (3955,2574.597mil) And Pad BM3-7 (4120,4040mil)
+   Violation between Un-Routed Net Constraint: Net B1_PB3 Between Pad STM32_1-55 (4321.081,2829.323mil) And Pad BM1-8 (4885,4140mil)
+   Violation between Un-Routed Net Constraint: Net B1_PA15 Between Pad STM32_1-50 (4390.678,2759.725mil) And Pad BM1-7 (4885,4040mil)
+Rule Violations :104
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 322
+Time Elapsed        : 00:00:02

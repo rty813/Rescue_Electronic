@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=LS0 Pin=STM32_1-27
+Removed Pin From Net: NetName=LS1 Pin=STM32_1-29
+Removed Pin From Net: NetName=LS2 Pin=STM32_1-30
+Added Pin To Net: NetName=LS0 Pin=STM32_1-25
+Added Pin To Net: NetName=LS1 Pin=STM32_1-26
+Added Pin To Net: NetName=LS2 Pin=STM32_1-27
+Added Room: Name=STM32µç»ú

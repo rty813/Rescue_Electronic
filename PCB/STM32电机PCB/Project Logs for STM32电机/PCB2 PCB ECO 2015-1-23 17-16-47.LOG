@@ -1,0 +1,11 @@
+Added Component: Designator=VP230(VP230)
+Added Pin To Net: NetName=CANTX Pin=VP230-1
+Added Pin To Net: NetName=GND Pin=VP230-2
+Added Pin To Net: NetName=VCC_3.3V Pin=VP230-3
+Added Pin To Net: NetName=CANRX Pin=VP230-4
+Added Pin To Net: NetName=NetR_HALF1_2 Pin=VP230-5
+Added Pin To Net: NetName=CANL Pin=VP230-6
+Added Pin To Net: NetName=CANH Pin=VP230-7
+Added Pin To Net: NetName=GND Pin=VP230-8
+Added Member To Class: ClassName=STM32电机 Member=Component VP230
+Added Room: Name=STM32电机

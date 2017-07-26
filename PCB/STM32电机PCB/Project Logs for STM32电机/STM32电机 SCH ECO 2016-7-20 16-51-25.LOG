@@ -1,0 +1,22 @@
+Remove Pin=JTAG-2 From Net=JTMS
+Remove Pin=JTAG-3 From Net=JTCK
+Remove Pin=U3-1 From Net=U3_RX
+Remove Pin=U3-2 From Net=U3_TX
+Change Component Footprint: Designator=TM Old Footprint=0603_WYH New Footprint=HDR1X2
+Change Component Footprint: Designator=LS0_1K Old Footprint=0603P New Footprint=0603_WYH
+Change Component Footprint: Designator=LS1_1K Old Footprint=0603P New Footprint=0603_WYH
+Change Component Footprint: Designator=LS2_1K Old Footprint=0603P New Footprint=0603_WYH
+Change Component Footprint: Designator=R6_120 Old Footprint=0603P New Footprint=0603_WYH
+Change Component Footprint: Designator=R_RST_10K Old Footprint=0603P New Footprint=0603_WYH
+Change Component Footprint: Designator=R_LED_4.7K Old Footprint=0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=E_LED Old Footprint=极性0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=LS0 Old Footprint=极性0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=LS1 Old Footprint=极性0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=LS2 Old Footprint=极性0805_WYN New Footprint=0603_WYH
+Change Component Comment: Designator=M1-M2 Old Comment=电机接口 New Comment=M1-M2
+Change Component Comment: Designator=M3-M4 Old Comment=电机接口 New Comment=M3-M4
+Change Component Designator: OldDesignator=BM3 NewDesignator=BM4
+Change Component Designator: OldDesignator=BM4 NewDesignator=BM3
+Change Component Designator: OldDesignator=LS0 NewDesignator=L0
+Change Component Designator: OldDesignator=LS1 NewDesignator=L1
+Change Component Designator: OldDesignator=LS2 NewDesignator=L2
