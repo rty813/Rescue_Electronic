@@ -1,0 +1,204 @@
+Change Component DesignItemId : Designator=M1-M2 Old DesignItemId=2*5BM New DesignItemId=电机接口
+Change Component DesignItemId : Designator=M3-M4 Old DesignItemId=2*5BM New DesignItemId=电机接口
+Change Component Footprint: Designator=U2 Old Footprint=HDR1X2 New Footprint=HDR1X3
+Added Component: Designator=JTAG(HDR1X5)
+Added Component: Designator=(LOGO)
+Added Pin To Net: NetName=B1_PA15 Pin=BM1-7
+Added Pin To Net: NetName=B1_PA15 Pin=STM32_1-50
+Added Net: Name=B1_PA15
+Added Pin To Net: NetName=B1_PB3 Pin=BM1-8
+Added Pin To Net: NetName=B1_PB3 Pin=STM32_1-55
+Added Net: Name=B1_PB3
+Added Pin To Net: NetName=B2_PA6 Pin=BM4-7
+Added Pin To Net: NetName=B2_PA6 Pin=STM32_1-22
+Added Net: Name=B2_PA6
+Added Pin To Net: NetName=B2_PA7 Pin=BM4-8
+Added Pin To Net: NetName=B2_PA7 Pin=STM32_1-23
+Added Net: Name=B2_PA7
+Added Pin To Net: NetName=B3_PB6 Pin=BM2-7
+Added Pin To Net: NetName=B3_PB6 Pin=STM32_1-58
+Added Net: Name=B3_PB6
+Added Pin To Net: NetName=B3_PB7 Pin=BM2-8
+Added Pin To Net: NetName=B3_PB7 Pin=STM32_1-59
+Added Net: Name=B3_PB7
+Added Pin To Net: NetName=B4_PA0 Pin=BM3-7
+Added Pin To Net: NetName=B4_PA0 Pin=STM32_1-14
+Added Net: Name=B4_PA0
+Added Pin To Net: NetName=B4_PA1 Pin=BM3-8
+Added Pin To Net: NetName=B4_PA1 Pin=STM32_1-15
+Added Net: Name=B4_PA1
+Added Pin To Net: NetName=CANH Pin=CANH_CANL-1
+Added Pin To Net: NetName=CANH Pin=R6_120-1
+Added Pin To Net: NetName=CANH Pin=VP230-7
+Added Net: Name=CANH
+Added Pin To Net: NetName=CANL Pin=CANH_CANL-2
+Added Pin To Net: NetName=CANL Pin=TM-2
+Added Pin To Net: NetName=CANL Pin=VP230-6
+Added Net: Name=CANL
+Added Pin To Net: NetName=CANRX Pin=STM32_1-61
+Added Pin To Net: NetName=CANRX Pin=VP230-4
+Added Net: Name=CANRX
+Added Pin To Net: NetName=CANTX Pin=STM32_1-62
+Added Pin To Net: NetName=CANTX Pin=VP230-1
+Added Net: Name=CANTX
+Added Pin To Net: NetName=GND Pin=1117_3.3-1
+Added Pin To Net: NetName=GND Pin=BM1-2
+Added Pin To Net: NetName=GND Pin=BM2-2
+Added Pin To Net: NetName=GND Pin=BM3-2
+Added Pin To Net: NetName=GND Pin=BM4-2
+Added Pin To Net: NetName=GND Pin=C1_22PF-1
+Added Pin To Net: NetName=GND Pin=C2_22PF-1
+Added Pin To Net: NetName=GND Pin=C4_10uf-2
+Added Pin To Net: NetName=GND Pin=C5_100nf-2
+Added Pin To Net: NetName=GND Pin=C6_10uf-2
+Added Pin To Net: NetName=GND Pin=C7_100nf-2
+Added Pin To Net: NetName=GND Pin=C_CAN_10nF-1
+Added Pin To Net: NetName=GND Pin=C_CAN_10UF-1
+Added Pin To Net: NetName=GND Pin=C_RST_0.1uf-2
+Added Pin To Net: NetName=GND Pin=E_HEAD-2
+Added Pin To Net: NetName=GND Pin=E_LED-2
+Added Pin To Net: NetName=GND Pin=JTAG-4
+Added Pin To Net: NetName=GND Pin=L0-2
+Added Pin To Net: NetName=GND Pin=L1-2
+Added Pin To Net: NetName=GND Pin=L2-2
+Added Pin To Net: NetName=GND Pin=M1-M2-5
+Added Pin To Net: NetName=GND Pin=M3-M4-5
+Added Pin To Net: NetName=GND Pin=RST_BUTTON-2
+Added Pin To Net: NetName=GND Pin=STM32_1-12
+Added Pin To Net: NetName=GND Pin=STM32_1-18
+Added Pin To Net: NetName=GND Pin=STM32_1-28
+Added Pin To Net: NetName=GND Pin=STM32_1-31
+Added Pin To Net: NetName=GND Pin=STM32_1-47
+Added Pin To Net: NetName=GND Pin=STM32_1-63
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=VDD1-2
+Added Pin To Net: NetName=GND Pin=VDD2-2
+Added Pin To Net: NetName=GND Pin=VDD3-2
+Added Pin To Net: NetName=GND Pin=VDD4-2
+Added Pin To Net: NetName=GND Pin=VDDA1-2
+Added Pin To Net: NetName=GND Pin=VDDA2-2
+Added Pin To Net: NetName=GND Pin=VP230-2
+Added Net: Name=GND
+Added Pin To Net: NetName=JTCK Pin=JTAG-3
+Added Pin To Net: NetName=JTCK Pin=STM32_1-49
+Added Net: Name=JTCK
+Added Pin To Net: NetName=JTMS Pin=JTAG-2
+Added Pin To Net: NetName=JTMS Pin=STM32_1-46
+Added Net: Name=JTMS
+Added Pin To Net: NetName=JTRST Pin=STM32_1-56
+Added Net: Name=JTRST
+Added Pin To Net: NetName=LS0 Pin=LS0_1K-1
+Added Pin To Net: NetName=LS0 Pin=STM32_1-25
+Added Net: Name=LS0
+Added Pin To Net: NetName=LS1 Pin=LS1_1K-1
+Added Pin To Net: NetName=LS1 Pin=STM32_1-26
+Added Net: Name=LS1
+Added Pin To Net: NetName=LS2 Pin=LS2_1K-1
+Added Pin To Net: NetName=LS2 Pin=STM32_1-27
+Added Net: Name=LS2
+Added Pin To Net: NetName=M1_PC6 Pin=M1-M2-2
+Added Pin To Net: NetName=M1_PC6 Pin=STM32_1-37
+Added Net: Name=M1_PC6
+Added Pin To Net: NetName=M2_PC7 Pin=M1-M2-9
+Added Pin To Net: NetName=M2_PC7 Pin=STM32_1-38
+Added Net: Name=M2_PC7
+Added Pin To Net: NetName=M3_PC8 Pin=M3-M4-2
+Added Pin To Net: NetName=M3_PC8 Pin=STM32_1-39
+Added Net: Name=M3_PC8
+Added Pin To Net: NetName=M4_PC9 Pin=M3-M4-9
+Added Pin To Net: NetName=M4_PC9 Pin=STM32_1-40
+Added Net: Name=M4_PC9
+Added Pin To Net: NetName=M_PA8 Pin=M3-M4-3
+Added Pin To Net: NetName=M_PA8 Pin=STM32_1-41
+Added Net: Name=M_PA8
+Added Pin To Net: NetName=M_PA9 Pin=M3-M4-8
+Added Pin To Net: NetName=M_PA9 Pin=STM32_1-42
+Added Net: Name=M_PA9
+Added Pin To Net: NetName=M_PA10 Pin=M3-M4-4
+Added Pin To Net: NetName=M_PA10 Pin=STM32_1-43
+Added Net: Name=M_PA10
+Added Pin To Net: NetName=M_PA11 Pin=M3-M4-7
+Added Pin To Net: NetName=M_PA11 Pin=STM32_1-44
+Added Net: Name=M_PA11
+Added Pin To Net: NetName=M_PB12 Pin=M1-M2-4
+Added Pin To Net: NetName=M_PB12 Pin=STM32_1-33
+Added Net: Name=M_PB12
+Added Pin To Net: NetName=M_PB13 Pin=M1-M2-7
+Added Pin To Net: NetName=M_PB13 Pin=STM32_1-34
+Added Net: Name=M_PB13
+Added Pin To Net: NetName=M_PB14 Pin=M1-M2-3
+Added Pin To Net: NetName=M_PB14 Pin=STM32_1-35
+Added Net: Name=M_PB14
+Added Pin To Net: NetName=M_PB15 Pin=M1-M2-8
+Added Pin To Net: NetName=M_PB15 Pin=STM32_1-36
+Added Net: Name=M_PB15
+Added Pin To Net: NetName=NetE_LED_1 Pin=E_LED-1
+Added Pin To Net: NetName=NetE_LED_1 Pin=R_LED_4.7K-1
+Added Net: Name=NetE_LED_1
+Added Pin To Net: NetName=NetL0_1 Pin=L0-1
+Added Pin To Net: NetName=NetL0_1 Pin=LS0_1K-2
+Added Net: Name=NetL0_1
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_1 Pin=LS1_1K-2
+Added Net: Name=NetL1_1
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=NetL2_1 Pin=LS2_1K-2
+Added Net: Name=NetL2_1
+Added Pin To Net: NetName=NetR6_120_2 Pin=R6_120-2
+Added Pin To Net: NetName=NetR6_120_2 Pin=TM-1
+Added Net: Name=NetR6_120_2
+Added Pin To Net: NetName=RESET Pin=C_RST_0.1uf-1
+Added Pin To Net: NetName=RESET Pin=R_RST_10K-2
+Added Pin To Net: NetName=RESET Pin=RST_BUTTON-1
+Added Pin To Net: NetName=RESET Pin=STM32_1-7
+Added Net: Name=RESET
+Added Pin To Net: NetName=U2_RX Pin=STM32_1-17
+Added Pin To Net: NetName=U2_RX Pin=U2-1
+Added Net: Name=U2_RX
+Added Pin To Net: NetName=U2_TX Pin=STM32_1-16
+Added Pin To Net: NetName=U2_TX Pin=U2-2
+Added Net: Name=U2_TX
+Added Pin To Net: NetName=VCC_3.3V Pin=1117_3.3-2
+Added Pin To Net: NetName=VCC_3.3V Pin=1117_3.3-4
+Added Pin To Net: NetName=VCC_3.3V Pin=C4_10uf-1
+Added Pin To Net: NetName=VCC_3.3V Pin=C5_100nf-1
+Added Pin To Net: NetName=VCC_3.3V Pin=C_CAN_10nF-2
+Added Pin To Net: NetName=VCC_3.3V Pin=C_CAN_10UF-2
+Added Pin To Net: NetName=VCC_3.3V Pin=JTAG-1
+Added Pin To Net: NetName=VCC_3.3V Pin=R_LED_4.7K-2
+Added Pin To Net: NetName=VCC_3.3V Pin=R_RST_10K-1
+Added Pin To Net: NetName=VCC_3.3V Pin=STM32_1-1
+Added Pin To Net: NetName=VCC_3.3V Pin=STM32_1-13
+Added Pin To Net: NetName=VCC_3.3V Pin=STM32_1-19
+Added Pin To Net: NetName=VCC_3.3V Pin=STM32_1-32
+Added Pin To Net: NetName=VCC_3.3V Pin=STM32_1-48
+Added Pin To Net: NetName=VCC_3.3V Pin=STM32_1-64
+Added Pin To Net: NetName=VCC_3.3V Pin=VDD1-1
+Added Pin To Net: NetName=VCC_3.3V Pin=VDD2-1
+Added Pin To Net: NetName=VCC_3.3V Pin=VDD3-1
+Added Pin To Net: NetName=VCC_3.3V Pin=VDD4-1
+Added Pin To Net: NetName=VCC_3.3V Pin=VDDA1-1
+Added Pin To Net: NetName=VCC_3.3V Pin=VDDA2-1
+Added Pin To Net: NetName=VCC_3.3V Pin=VP230-3
+Added Net: Name=VCC_3.3V
+Added Pin To Net: NetName=VCC_5V Pin=1117_3.3-3
+Added Pin To Net: NetName=VCC_5V Pin=BM1-10
+Added Pin To Net: NetName=VCC_5V Pin=BM2-10
+Added Pin To Net: NetName=VCC_5V Pin=BM3-10
+Added Pin To Net: NetName=VCC_5V Pin=BM4-10
+Added Pin To Net: NetName=VCC_5V Pin=C6_10uf-1
+Added Pin To Net: NetName=VCC_5V Pin=C7_100nf-1
+Added Pin To Net: NetName=VCC_5V Pin=E_HEAD-1
+Added Pin To Net: NetName=VCC_5V Pin=M1-M2-1
+Added Pin To Net: NetName=VCC_5V Pin=M3-M4-1
+Added Net: Name=VCC_5V
+Added Pin To Net: NetName=XTAL1 Pin=8MHZ-1
+Added Pin To Net: NetName=XTAL1 Pin=C1_22PF-2
+Added Pin To Net: NetName=XTAL1 Pin=STM32_1-5
+Added Net: Name=XTAL1
+Added Pin To Net: NetName=XTAL2 Pin=8MHZ-2
+Added Pin To Net: NetName=XTAL2 Pin=C2_22PF-2
+Added Pin To Net: NetName=XTAL2 Pin=STM32_1-6
+Added Net: Name=XTAL2
+Added Class: Name=STM32电机
+Added Room: Name=STM32电机

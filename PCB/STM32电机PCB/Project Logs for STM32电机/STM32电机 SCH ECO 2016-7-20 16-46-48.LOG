@@ -1,0 +1,34 @@
+Remove Pin=JTAG-2 From Net=JTMS
+Remove Pin=JTAG-3 From Net=JTCK
+Remove Pin=M1-M2-2 From Net=M1_PC6
+Remove Pin=M1-M2-3 From Net=M_PB14
+Remove Pin=M1-M2-4 From Net=M_PB12
+Remove Pin=M1-M2-7 From Net=M_PB13
+Remove Pin=M1-M2-8 From Net=M_PB15
+Remove Pin=M1-M2-9 From Net=M2_PC7
+Remove Pin=M3-M4-2 From Net=M3_PC8
+Remove Pin=M3-M4-3 From Net=M_PA8
+Remove Pin=M3-M4-4 From Net=M_PA10
+Remove Pin=M3-M4-7 From Net=M_PA11
+Remove Pin=M3-M4-8 From Net=M_PA9
+Remove Pin=M3-M4-9 From Net=M4_PC9
+Change Component Footprint: Designator=TM Old Footprint=0603_WYH New Footprint=HDR1X2
+Change Component Footprint: Designator=LS0_1K Old Footprint=0603P New Footprint=0603_WYH
+Change Component Footprint: Designator=LS1_1K Old Footprint=0603P New Footprint=0603_WYH
+Change Component Footprint: Designator=LS2_1K Old Footprint=0603P New Footprint=0603_WYH
+Change Component Footprint: Designator=R6_120 Old Footprint=0603P New Footprint=0603_WYH
+Change Component Footprint: Designator=R_RST_10K Old Footprint=0603P New Footprint=0603_WYH
+Change Component Footprint: Designator=R_LED_4.7K Old Footprint=0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=U3 Old Footprint=HDR1X3 New Footprint=HDR1X2
+Change Component Footprint: Designator=E_LED Old Footprint=极性0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=LS0 Old Footprint=极性0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=LS1 Old Footprint=极性0805_WYN New Footprint=0603_WYH
+Change Component Footprint: Designator=LS2 Old Footprint=极性0805_WYN New Footprint=0603_WYH
+Change Component Comment: Designator=R_RST_10K Old Comment=10K New Comment=R_10K
+Change Component Comment: Designator=R6_120 Old Comment=120 New Comment=R_120
+Change Component Designator: OldDesignator=BM3 NewDesignator=BM4
+Change Component Designator: OldDesignator=BM4 NewDesignator=BM3
+Change Component Designator: OldDesignator=LS0 NewDesignator=L0
+Change Component Designator: OldDesignator=LS1 NewDesignator=L1
+Change Component Designator: OldDesignator=LS2 NewDesignator=L2
+Change Component Designator: OldDesignator=U3 NewDesignator=U2

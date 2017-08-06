@@ -1,0 +1,94 @@
+Removed Pin From Net: NetName=GND Pin=CANH_CANL-3
+Removed Pin From Net: NetName=GND Pin=JTAG-1
+Removed Pin From Net: NetName=JTCK Pin=JTAG-2
+Removed Pin From Net: NetName=JTMS Pin=JTAG-3
+Removed Pin From Net: NetName=VCC_3.3V Pin=JTAG-4
+Removed Pin From Net: NetName=M2_PA11 Pin=M-1
+Removed Pin From Net: NetName=M2_PA10 Pin=M-2
+Removed Pin From Net: NetName=M1_PA9 Pin=M-3
+Removed Pin From Net: NetName=M1_PA8 Pin=M-4
+Removed Pin From Net: NetName=M4_PC9 Pin=M-5
+Removed Pin From Net: NetName=M4_PC8 Pin=M-6
+Removed Pin From Net: NetName=M3_PC7 Pin=M-7
+Removed Pin From Net: NetName=M3_PC6 Pin=M-8
+Removed Pin From Net: NetName=GND Pin=STM32_1-2
+Removed Pin From Net: NetName=GND Pin=STM32_1-3
+Removed Pin From Net: NetName=GND Pin=STM32_1-4
+Removed Pin From Net: NetName=GND Pin=STM32_1-8
+Removed Pin From Net: NetName=GND Pin=STM32_1-9
+Removed Pin From Net: NetName=GND Pin=STM32_1-10
+Removed Pin From Net: NetName=GND Pin=STM32_1-11
+Removed Pin From Net: NetName=GND Pin=STM32_1-20
+Removed Pin From Net: NetName=GND Pin=STM32_1-21
+Removed Pin From Net: NetName=GND Pin=STM32_1-24
+Removed Pin From Net: NetName=GND Pin=STM32_1-33
+Removed Pin From Net: NetName=GND Pin=STM32_1-34
+Removed Pin From Net: NetName=GND Pin=STM32_1-35
+Removed Pin From Net: NetName=GND Pin=STM32_1-36
+Removed Pin From Net: NetName=GND Pin=STM32_1-45
+Removed Pin From Net: NetName=GND Pin=STM32_1-51
+Removed Pin From Net: NetName=GND Pin=STM32_1-52
+Removed Pin From Net: NetName=GND Pin=STM32_1-53
+Removed Pin From Net: NetName=GND Pin=STM32_1-54
+Removed Pin From Net: NetName=GND Pin=STM32_1-57
+Removed Pin From Net: NetName=GND Pin=STM32_1-60
+Removed Pin From Net: NetName=GND Pin=VP232-5
+Removed Pin From Net: NetName=GND Pin=VP232-8
+Change Component Footprint: Designator=JTAG Old Footprint=1.25-WT4P New Footprint=HDR1X5
+Change Component Footprint: Designator=LS0_1K Old Footprint=0603_WYH New Footprint=0603P
+Change Component Footprint: Designator=LS1_1K Old Footprint=0603_WYH New Footprint=0603P
+Change Component Footprint: Designator=LS2_1K Old Footprint=0603_WYH New Footprint=0603P
+Change Component Footprint: Designator=R6_120 Old Footprint=0603_WYH New Footprint=0603P
+Change Component Footprint: Designator=R_RST_10K Old Footprint=0603_WYH New Footprint=0603P
+Change Component Footprint: Designator=R_LED_4.7K Old Footprint=0603_WYH New Footprint=0805_WYN
+Change Component Footprint: Designator=E_LED Old Footprint=0603_WYH New Footprint=极性0805_WYN
+Change Component Footprint: Designator=L0 Old Footprint=0603_WYH New Footprint=极性0805_WYN
+Change Component Footprint: Designator=L1 Old Footprint=0603_WYH New Footprint=极性0805_WYN
+Change Component Footprint: Designator=L2 Old Footprint=0603_WYH New Footprint=极性0805_WYN
+Change Component Footprint: Designator=CANH_CANL Old Footprint=CAN信号 New Footprint=XH2.45_2P直
+Change Component Footprint: Designator=U2 Old Footprint=HDR1X2 New Footprint=HDR1X3
+Change Component Footprint: Designator=E_HEAD Old Footprint=Power New Footprint=XH2.45_2P弯
+Change Component Comment : Designator=R_RST_10K Old Comment=R_10K New Comment=10K
+Change Component Comment : Designator=R6_120 Old Comment=R_120 New Comment=120
+Change Component Designator: OldDesignator=BM3 NewDesignator=BM4
+Change Component Designator: OldDesignator=BM4 NewDesignator=BM3
+Change Component Designator: OldDesignator=L0 NewDesignator=LS0
+Change Component Designator: OldDesignator=L1 NewDesignator=LS1
+Change Component Designator: OldDesignator=L2 NewDesignator=LS2
+Change Component Designator: OldDesignator=U2 NewDesignator=USART3
+Change Component Designator: OldDesignator=VP232 NewDesignator=VP230
+Added Component: Designator=M1_2(XH2.45_4P)
+Added Component: Designator=M3_4(XH2.45_4P)
+Added Component: Designator=P_5_3.3_G(HDR2X3)
+Added Component: Designator=(LOGO)
+Added Pin To Net: NetName=VCC_3.3V Pin=JTAG-1
+Added Pin To Net: NetName=JTMS Pin=JTAG-2
+Added Pin To Net: NetName=JTCK Pin=JTAG-3
+Added Pin To Net: NetName=GND Pin=JTAG-4
+Added Pin To Net: NetName=M1_PA8 Pin=M1_2-1
+Added Pin To Net: NetName=M1_PA9 Pin=M1_2-2
+Added Pin To Net: NetName=M2_PA10 Pin=M1_2-3
+Added Pin To Net: NetName=M2_PA11 Pin=M1_2-4
+Added Pin To Net: NetName=M3_PC6 Pin=M3_4-1
+Added Pin To Net: NetName=M3_PC7 Pin=M3_4-2
+Added Pin To Net: NetName=M4_PC8 Pin=M3_4-3
+Added Pin To Net: NetName=M4_PC9 Pin=M3_4-4
+Added Pin To Net: NetName=VCC_5V Pin=P_5_3.3_G-1
+Added Pin To Net: NetName=GND Pin=P_5_3.3_G-2
+Added Pin To Net: NetName=VCC_3.3V Pin=P_5_3.3_G-3
+Added Pin To Net: NetName=GND Pin=P_5_3.3_G-4
+Added Pin To Net: NetName=VCC_3.3V Pin=P_5_3.3_G-5
+Added Pin To Net: NetName=GND Pin=P_5_3.3_G-6
+Added Pin To Net: NetName=U3_RX Pin=USART3-1
+Added Pin To Net: NetName=U3_TX Pin=USART3-2
+Added Pin To Net: NetName=GND Pin=USART3-3
+Added Member To Class: ClassName=STM32电机 Member=Component M1_2 HT4_1
+Added Member To Class: ClassName=STM32电机 Member=Component M3_4 HT4_1
+Added Member To Class: ClassName=STM32电机 Member=Component P_5_3.3_G Header 3X2
+Added Member To Class: ClassName=STM32电机 Member=Component  LOGO
+Added Member To Class: ClassName=STM32电机 Member=Component USART3 三针串口
+Added Member To Class: ClassName=STM32电机 Member=Component VDD3 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA1 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA2 100nf
+Added Member To Class: ClassName=STM32电机 Member=Component VP230
+Added Room: Name=STM32电机

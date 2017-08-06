@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=VDD1_100nf NewDesignator=C1_100nf
+Change Component Designator: OldDesignator=VDD2_100nf NewDesignator=C2_100nf
+Change Component Designator: OldDesignator=VDD3_100nf NewDesignator=C3_100nf
+Change Component Designator: OldDesignator=VDD4_100nf NewDesignator=C4_100nf
+Added Room: Name=STM32µç»ú

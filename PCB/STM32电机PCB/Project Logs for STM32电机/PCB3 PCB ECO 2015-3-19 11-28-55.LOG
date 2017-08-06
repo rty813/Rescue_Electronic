@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=STM32_1-12
+Removed Pin From Net: NetName=VCC_3.3V Pin=STM32_1-13
+Removed Pin From Net: NetName=LS0 Pin=STM32_1-27
+Removed Pin From Net: NetName=LS1 Pin=STM32_1-29
+Removed Pin From Net: NetName=LS2 Pin=STM32_1-30
+Added Pin To Net: NetName=RESET Pin=JTAG-5
+Added Pin To Net: NetName=LS0 Pin=STM32_1-2
+Added Pin To Net: NetName=LS1 Pin=STM32_1-3
+Added Pin To Net: NetName=LS2 Pin=STM32_1-4
+Added Pin To Net: NetName=GND A Pin=STM32_1-12
+Added Pin To Net: NetName=VCC_3.3V_A Pin=STM32_1-13
+Added Member To Class: ClassName=STM32电机 Member=Component  LOGO
+Added Member To Class: ClassName=STM32电机 Member=Component VDD3 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA1 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA2 100nf
+Added Member To Class: ClassName=STM32电机 Member=Component VP230
+Added Room: Name=STM32电机

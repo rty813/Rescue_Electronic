@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=VDDA_10uf Old DesignItemId=CAP_WYN New DesignItemId=CAP_POL_WYN_1
+Change Component Footprint: Designator=VDDA_10uf Old Footprint=0603_WYH New Footprint=0805_WYN
+Added Room: Name=STM32µç»ú

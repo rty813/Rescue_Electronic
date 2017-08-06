@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=VCC_5V Pin=P_5_3.3_G-1
+Removed Pin From Net: NetName=GND Pin=P_5_3.3_G-2
+Removed Pin From Net: NetName=VCC_3.3V Pin=P_5_3.3_G-3
+Removed Pin From Net: NetName=GND Pin=P_5_3.3_G-4
+Removed Pin From Net: NetName=VCC_3.3V Pin=P_5_3.3_G-5
+Removed Pin From Net: NetName=GND Pin=P_5_3.3_G-6
+Removed Pin From Net: NetName=GND Pin=USART4-3
+Removed Member From Class: ClassName=STM32电机 Member=P_5_3.3_G
+Removed Member From Class: ClassName=STM32电机 Member=USART4
+Added Room: Name=STM32电机

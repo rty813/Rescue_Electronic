@@ -1,0 +1,23 @@
+Added Component: Designator=P_5_3.3_G(HDR2X3)
+Added Component: Designator=USART4(HDR1X3)
+Added Pin To Net: NetName=VCC_5V Pin=P_5_3.3_G-1
+Added Pin To Net: NetName=GND Pin=P_5_3.3_G-2
+Added Pin To Net: NetName=VCC_3.3V Pin=P_5_3.3_G-3
+Added Pin To Net: NetName=GND Pin=P_5_3.3_G-4
+Added Pin To Net: NetName=VCC_3.3V Pin=P_5_3.3_G-5
+Added Pin To Net: NetName=GND Pin=P_5_3.3_G-6
+Added Pin To Net: NetName=GND Pin=USART4-3
+Added Pin To Net: NetName=U3_RX Pin=STM32_1-30
+Added Pin To Net: NetName=U3_RX Pin=USART4-1
+Added Net: Name=U3_RX
+Added Pin To Net: NetName=U3_TX Pin=STM32_1-29
+Added Pin To Net: NetName=U3_TX Pin=USART4-2
+Added Net: Name=U3_TX
+Added Member To Class: ClassName=STM32电机 Member=Component P_5_3.3_G Header 3X2
+Added Member To Class: ClassName=STM32电机 Member=Component  LOGO
+Added Member To Class: ClassName=STM32电机 Member=Component USART4 三针串口
+Added Member To Class: ClassName=STM32电机 Member=Component VDD3 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA1 10uf
+Added Member To Class: ClassName=STM32电机 Member=Component VDDA2 100nf
+Added Member To Class: ClassName=STM32电机 Member=Component VP230
+Added Room: Name=STM32电机
