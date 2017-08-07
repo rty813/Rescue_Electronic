@@ -30,4 +30,5 @@ typedef struct PID
 float IncPIDCalc(PID *PIDx ,double NextPoint);
 void TaskMotorSpeedAdj(void);
 double Speed_Choose(unsigned char i, double *speed,double *Target_Speed_Prv,double *Target_Speed_New);
+void angle_speed_transform(void);
 #endif

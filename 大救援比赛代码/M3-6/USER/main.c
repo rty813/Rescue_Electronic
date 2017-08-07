@@ -49,8 +49,6 @@ int send_can_data(float target_data1,float target_data2)
  int main(void) 
  {		
 	 u8 i = 0;
-	u8 UART_Speed = 0;
-	 u8 canbuf[8] = {1,2,3,4,5,6,7,8};
 	delay_init();	    	 //延时函数初始化	  
 	NVIC_Configuration(); 	 //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
 	uart_init(115200);	 //串口初始化
@@ -59,7 +57,22 @@ int send_can_data(float target_data1,float target_data2)
 	TIM_PWM_Init(999,3); 		//PWM
 	Encoder_Init();	 		//捕获脉冲
 	CAN_Config();
-	LED1 = 1;
+	 	LED1 = 0;
+	 while(1)
+	 {
+		 	if(Speed_Flag)
+			{
+				TaskMotorSpeedAdj();
+				Speed_Flag = 0;
+			}
+		 for(i=0;i<4;i++)
+		 {
+			angle_speed_transform(); //副履带复位 
+		 }
+		 if(speed_target[0]==0&&speed_target[1]==0&&speed_target[2]==0&&speed_target[3]==0)
+			 break;
+	 }
+	 LED1 = 1;
  while(1)
  {
 			if(Speed_Flag)

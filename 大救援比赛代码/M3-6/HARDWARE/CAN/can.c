@@ -97,10 +97,10 @@ void CAN_Config(void)
 	
 }
 float M_angle[4] = {0};
-double target_angle[4] = {230,70,55,250};
+double target_angle[4] = {240,65,41,269};
 void TaskCanCommadDeal(void)
 {
-	float x,x1,x2;
+	float x1,x2;
 // 	if(	CAN_EN == 1)	
 // 	{
 //	CAN_Receive(CAN1 , CAN_FIFO0 , &RxMessage);	
@@ -127,7 +127,7 @@ void TaskCanCommadDeal(void)
 //					speed_target[1] = -80*x ;
 //					timeflag = 0;
 //					break;
-				case (0x11e0>>5):
+			case (0x11e0>>5):
 					M_angle[0] = *((float*)(&RxMessage.Data[0]));  
 					M_angle[1] = *((float*)(&RxMessage.Data[4]));  
 					printf("M0 %f, M1 %f\r\n",M_angle[0],M_angle[1]);
@@ -138,19 +138,32 @@ void TaskCanCommadDeal(void)
 					M_angle[3] = *((float*)(&RxMessage.Data[4]));  
 					printf("M2 %f, M3 %f\r\n",M_angle[2],M_angle[3]);
 					break;			
-			case (0x03e0>>5):
-					x = *((float*)(&RxMessage.Data[0]));  //副1
-					speed_target[3] = x * 750;
-					//printf("1\r\n");
-			
-					x = *((float*)(&RxMessage.Data[4]));  //副2
-					speed_target[2] = x * 750;
+//			case (0x03e0>>5):
+//					x1 = *((float*)(&RxMessage.Data[0]));  
+//					x2 = *((float*)(&RxMessage.Data[4]));  
+//					target_angle[3] = x1 * 750;  //左上3  164水平
+//					target_angle[1] = x2 * 750;  //左下1  165
+//					//printf("1\r\n");
+//			case (0x04e0>>5):
+//					x1 = *((float*)(&RxMessage.Data[0]));  
+//					x2 = *((float*)(&RxMessage.Data[4]));  
+//					target_angle[2] = x1 * 750;  //右上2   145水平
+//					target_angle[0] = x2 * 750;  //右下0   140水平
+//					//printf("3\r\n");
+//						break;
+	  	case (0x03e0>>5):
+					x1 = *((float*)(&RxMessage.Data[0]));  
+					x2 = *((float*)(&RxMessage.Data[4]));  
+					speed_target[3] = x1*1000;  //左上3  164水平
+					speed_target[1] = x2*1000;  //左下1  165
+					printf("x1 = %f,x2 = %f\r\n", x1,x2);
+			case (0x04e0>>5):
+					x1 = *((float*)(&RxMessage.Data[0]));  
+					x2 = *((float*)(&RxMessage.Data[4]));  
+					speed_target[2] = x1*1000;  //右上2   145水平
+					speed_target[0] = x2*1000;  //右下0   140水平
 					//printf("3\r\n");
-						break;
-			case (0x08e0>>5):
-						x = *((float*)(&RxMessage.Data[0]));  
-						printf("can = %.2f,%.2f\r\n",x,*((float*)(&RxMessage.Data[4])));
-					break;
+						break; 
 			default: break;
 		}
 	}

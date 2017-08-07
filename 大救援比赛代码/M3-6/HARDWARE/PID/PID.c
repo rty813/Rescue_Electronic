@@ -64,7 +64,7 @@ double Speed_Choose(unsigned char i, double *speed, double *Target_Speed_Prv, do
 		}
 }
 
-
+int f_speed = 5;
 void angle_speed_transform()
 {
 	int i,error;
@@ -76,20 +76,20 @@ void angle_speed_transform()
 			switch(i)
 			{
 				case 0:
-					if(error>0) speed_target[i] = 5;
-					else speed_target[i] = -5;
+					if(error>0) speed_target[i] = f_speed;
+					else speed_target[i] = -f_speed;
 				break;
 				case 1:
-					if(error>0) speed_target[i] = -5;
-					else speed_target[i] = 5;
+					if(error>0) speed_target[i] = -f_speed;
+					else speed_target[i] = f_speed;
 				break;
 				case 2:
-					if(error>0) speed_target[i] = -5;
-					else speed_target[i] = 5;
+					if(error>0) speed_target[i] = -f_speed;
+					else speed_target[i] = f_speed;
 				break;
 				case 3:
-					if(error>0) speed_target[i] = 5;
-		    	else speed_target[i] = -5;
+					if(error>0) speed_target[i] = f_speed;
+		    	else speed_target[i] = -f_speed;
 				break;
 				default: break;
 			}
@@ -118,7 +118,7 @@ void TaskMotorSpeedAdj()
 
   for(i=0;i<4;i++)
 	{		 
-			angle_speed_transform();
+//  	angle_speed_transform();
 			vPID[i].SetPoint = Speed_Choose(i, speed, speed_target_Prv , speed_target);
 			if(vPID[i].SetPoint > 0)
 			{	
