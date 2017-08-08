@@ -11,6 +11,8 @@ u8 tmp_buf[30]={0},t;
 u8 Speed_Flag =0;
 double pwm2=100;
 
+u8 lost_rc_flag = 0;
+
 extern int update_count[4];//记录溢出次数
 extern int firstcount[4];//第一次在中断中读取的编码器计数器的值
 extern int secondcount[4];//第二次在中断中读取的编码器计数器的值
@@ -53,11 +55,16 @@ int send_can_data(float target_data1,float target_data2)
 	NVIC_Configuration(); 	 //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
 	uart_init(115200);	 //串口初始化
 	LED_Init();	 
+	cycleCounterInit();				// Init cycle counter
+	SysTick_Config(SystemCoreClock / 1000);
 	 
-	TIM_PWM_Init(999,3); 		//PWM
+	 
+	//TIM_PWM_Init(999,3); 		//PWM
 	Encoder_Init();	 		//捕获脉冲
 	CAN_Config();
 	 	LED1 = 0;
+	
+	 
 	 while(1)
 	 {
 		 	if(Speed_Flag)

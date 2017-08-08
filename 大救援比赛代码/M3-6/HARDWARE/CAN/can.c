@@ -14,6 +14,9 @@
 
 extern double speed_target[4];
 extern double speed_target_1, speed_target_2;
+extern u8 lost_rc_flag;
+
+uint32_t last_recv_time = 0;
 u8 CAN_EN = 0;
 CanTxMsg TxMessage;
 CanRxMsg RxMessage;
@@ -152,19 +155,26 @@ void TaskCanCommadDeal(void)
 //					//printf("3\r\n");
 //						break;
 	  	case (0x03e0>>5):
+					LED1=!LED1;
 					x1 = *((float*)(&RxMessage.Data[0]));  
 					x2 = *((float*)(&RxMessage.Data[4]));  
 					speed_target[3] = x1*1000;  //左上3  164水平
 					speed_target[1] = x2*1000;  //左下1  165
 					printf("x1 = %f,x2 = %f\r\n", x1,x2);
 			case (0x04e0>>5):
+					LED1=!LED1;
 					x1 = *((float*)(&RxMessage.Data[0]));  
 					x2 = *((float*)(&RxMessage.Data[4]));  
 					speed_target[2] = x1*1000;  //右上2   145水平
 					speed_target[0] = x2*1000;  //右下0   140水平
 					//printf("3\r\n");
 						break; 
-			default: break;
+			
+			case (0x09e0>>5):
+				last_recv_time = millis();
+				break;
+			default: 
+				break;
 		}
 	}
 	
@@ -172,7 +182,7 @@ void TaskCanCommadDeal(void)
 }
 
 /**
-  * @brief  This function handles CAN RX interrupt request.
+  * @brief  This function handles CAN RX interrupt reques
   * @param  None
   * @retval None
   */
@@ -182,7 +192,6 @@ void USB_LP_CAN1_RX0_IRQHandler(void)
 	{
 		CAN_Receive(CAN1 , CAN_FIFO0 , &RxMessage);
 // 		CAN_EN = 1;
-		LED1=!LED1;
 		TaskCanCommadDeal();
 		CAN_GetITStatus(CAN1,CAN_IT_FMP0);	
 	}

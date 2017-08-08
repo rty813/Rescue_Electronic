@@ -41,6 +41,11 @@ void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
 
+void cycleCounterInit(void);
+uint32_t micros(void);
+uint32_t millis(void);
+void DelayMs(uint16_t nms);
+
 #endif /* __STM32F10x_IT_H */
 
 /******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/

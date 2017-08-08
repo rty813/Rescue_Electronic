@@ -4,7 +4,7 @@
 ..\obj\can_1.o: ..\SYSTEM\sys\sys.h
 ..\obj\can_1.o: ..\USER\stm32f10x.h
 ..\obj\can_1.o: ..\CORE\core_cm3.h
-..\obj\can_1.o: D:\_Install\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\can_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\can_1.o: ..\USER\system_stm32f10x.h
 ..\obj\can_1.o: ..\USER\stm32f10x_conf.h
 ..\obj\can_1.o: ..\STM32F10x_FWLib\inc\stm32f10x_can.h
@@ -21,10 +21,10 @@
 ..\obj\can_1.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\can_1.o: ..\SYSTEM\delay\delay.h
 ..\obj\can_1.o: ..\SYSTEM\usart\usart.h
-..\obj\can_1.o: D:\_Install\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\can_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\can_1.o: ..\HARDWARE\PWM\pwm.h
 ..\obj\can_1.o: ..\HARDWARE\PID\pid.h
-..\obj\can_1.o: D:\_Install\ARM\ARMCC\Bin\..\include\math.h
-..\obj\can_1.o: D:\_Install\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\can_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\can_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\can_1.o: ..\HARDWARE\ENOODER\Encooder.h
 ..\obj\can_1.o: ..\HARDWARE\CAN\can.h
