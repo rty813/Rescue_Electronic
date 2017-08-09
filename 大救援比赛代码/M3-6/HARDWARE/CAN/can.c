@@ -114,22 +114,6 @@ void TaskCanCommadDeal(void)
 	{
 		switch(RxMessage.StdId)
 		{
-//			case (0x01e0>>5):
-//					x1 = *((float*)(&RxMessage.Data[0]));  //主1
-//					x2 = *((float*)(&RxMessage.Data[4]));  
-//					x = (x1+x2)/2.0;
-//					//printf("1 %.1f\r\n",x);
-//					speed_target[0] = 80*x  ;
-//					timeflag = 0;
-//					break;			
-//			case (0x02e0>>5):
-//					x1 = *((float*)(&RxMessage.Data[0]));  //主2
-//					x2 = *((float*)(&RxMessage.Data[4]));  
-//					x = (x1+x2)/2.0;
-//					//printf("1 %.1f\r\n",x);
-//					speed_target[1] = -80*x ;
-//					timeflag = 0;
-//					break;
 			case (0x11e0>>5):
 					M_angle[0] = *((float*)(&RxMessage.Data[0]));  
 					M_angle[1] = *((float*)(&RxMessage.Data[4]));  
@@ -161,6 +145,8 @@ void TaskCanCommadDeal(void)
 					speed_target[3] = x1*1000;  //左上3  164水平
 					speed_target[1] = x2*1000;  //左下1  165
 					printf("x1 = %f,x2 = %f\r\n", x1,x2);
+			break;
+			
 			case (0x04e0>>5):
 					LED1=!LED1;
 					x1 = *((float*)(&RxMessage.Data[0]));  
