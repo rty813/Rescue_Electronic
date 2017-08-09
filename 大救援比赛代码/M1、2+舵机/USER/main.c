@@ -46,13 +46,17 @@ int send_can_data(float target_data1,float target_data2)
 }
 
 u8 rnf_data[6]={0};
+u8 lost_rc_flag = 0;
+
  int main(void) 
  {		
 	 u8 i = 0;
-	delay_init();	    	 //延时函数初始化	  
+	//delay_init();	    	 //延时函数初始化	  
 	NVIC_Configuration(); 	 //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
 	uart_init(1000000);	 //串口初始化
 	LED_Init();	 
+	cycleCounterInit();				// Init cycle counter
+	SysTick_Config(SystemCoreClock / 1000);
 	 
 	TIM_PWM_Init(999,3); 		//PWM
 	Encoder_Init();	 		//捕获脉冲

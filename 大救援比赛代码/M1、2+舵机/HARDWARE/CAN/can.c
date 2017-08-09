@@ -14,6 +14,10 @@
 
 extern double speed_target[4];
 extern double speed_target_1, speed_target_2;
+
+extern u8 lost_rc_flag;
+uint32_t last_recv_time = 0;
+
 u8 CAN_EN = 0;
 CanTxMsg TxMessage;
 CanRxMsg RxMessage;
@@ -130,6 +134,10 @@ void TaskCanCommadDeal(void)
 				
 					timeflag = 0;
 					break;
+			
+			case (0x09e0>>5):
+				last_recv_time = millis();
+				break;
 			default: break;
 		}
 	}

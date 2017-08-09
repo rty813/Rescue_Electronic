@@ -69,11 +69,21 @@ double Speed_Choose(unsigned char i, double *speed, double *Target_Speed_Prv, do
 ****************************************************************/	
 
 u8  flag[4]={0} ;
+extern u8 lost_rc_flag;
 void TaskMotorSpeedAdj()
 {
 	u8 i=0;
 	double pwm_inc;
 
+		//控制信号丢失保护
+	if (lost_rc_flag){
+		TIM_SetCompare1(TIM8, 0);
+		TIM_SetCompare2(TIM8, 0);
+		speed_target[0] = 0;
+		speed_target[1] = 0;
+		return;
+	}
+	
   for(i=0;i<2;i++)
 	{		 
 			vPID[i].SetPoint = Speed_Choose(i, speed, speed_target_Prv , speed_target);

@@ -123,6 +123,10 @@ void TaskMotorSpeedAdj()
 		TIM_SetCompare2(TIM8, 0);
 		TIM_SetCompare3(TIM8, 0);
 		TIM_SetCompare4(TIM8, 0);
+		speed_target[0] = 0;
+		speed_target[1] = 0;
+		speed_target[2] = 0;
+		speed_target[3] = 0;
 		return;
 	}
 		

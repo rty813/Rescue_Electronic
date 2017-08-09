@@ -26,7 +26,8 @@
 
 uint32_t timeflag;
 extern double speed_target[4];
-
+volatile uint32_t sysTickUptime = 0;
+static volatile uint32_t usTicks = 0;
  
 void NMI_Handler(void)
 {
@@ -77,10 +78,50 @@ void PendSV_Handler(void)
 {
 }
  
+
+extern uint32_t last_recv_time;
+extern u8 lost_rc_flag;
 void SysTick_Handler(void)
 {
+	sysTickUptime++;
+	if (sysTickUptime - last_recv_time > 500){
+		lost_rc_flag = 1;
+	}
+	else{
+		lost_rc_flag = 0;
+	}
+}
+void cycleCounterInit(void)
+{
+    RCC_ClocksTypeDef clocks;
+    RCC_GetClocksFreq(&clocks);
+    usTicks = clocks.SYSCLK_Frequency / 1000000;
 }
 
+// Return system uptime in microseconds (rollover in 70minutes)
+//?? us
+uint32_t micros(void)
+{
+    register uint32_t ms, cycle_cnt;
+    do {
+        ms = sysTickUptime;
+        cycle_cnt = SysTick->VAL;
+    } while (ms != sysTickUptime);
+    return (ms * 1000) + (usTicks * 1000 - cycle_cnt) / usTicks;
+}
+
+// Return system uptime in milliseconds (rollover in 49 days)
+uint32_t millis(void)
+{
+    return sysTickUptime;
+}
+
+void DelayMs(uint16_t nms)
+{
+    uint32_t t0=micros();
+    while(micros() - t0 < nms * 1000);
+
+}
 /******************************************************************************/
 /*                 STM32F10x Peripherals Interrupt Handlers                   */
 /*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
