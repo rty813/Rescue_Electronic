@@ -47,7 +47,25 @@ float IncPIDCalc(PID *PIDx ,double NextPoint)//增量式pid控制
 
 double Speed_Choose(unsigned char i, double *speed, double *Target_Speed_Prv, double *Target_Speed_New)
 {
-		
+	if(speed_target[i]<0)
+	{
+		switch(i)
+		{
+			case 0:
+				if(M_angle[0]>239) {speed_target[0]=0; return 0;}
+			break;
+			case 1:
+				if(M_angle[1]<65) {speed_target[1]=0;return 0;}
+			break;
+			case 2:
+				if(M_angle[2]<40) {speed_target[2]=0;return 0;}
+			break;
+			case 3:
+				if(M_angle[3]>270) {speed_target[3]=0; return 0;}
+			break;
+			default: break;
+		}
+	}
 	if(fabs(*speed) < Turn_Point || (Target_Speed_Prv[i] * Target_Speed_New[i] )>= 0)
 		{
 			Target_Speed_Prv[i] = Target_Speed_New[i];
