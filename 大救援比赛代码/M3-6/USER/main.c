@@ -59,7 +59,7 @@ int send_can_data(float target_data1,float target_data2)
 	SysTick_Config(SystemCoreClock / 1000);
 	 
 	 
-	//TIM_PWM_Init(999,3); 		//PWM
+	TIM_PWM_Init(999,3); 		//PWM
 	Encoder_Init();	 		//²¶»ñÂö³å
 	CAN_Config();
 	 	LED1 = 0;
