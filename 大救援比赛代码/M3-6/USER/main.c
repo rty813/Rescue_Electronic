@@ -47,7 +47,7 @@ int send_can_data(float target_data1,float target_data2)
 		}
 }
 
-
+u8 isResetReady = 0;
  int main(void) 
  {		
 	 u8 i = 0;
@@ -59,7 +59,7 @@ int send_can_data(float target_data1,float target_data2)
 	SysTick_Config(SystemCoreClock / 1000);
 	 
 	 
-	//TIM_PWM_Init(999,3); 		//PWM
+	TIM_PWM_Init(999,3); 		//PWM
 	Encoder_Init();	 		//²¶»ñÂö³å
 	CAN_Config();
 	 	LED1 = 0;
@@ -80,6 +80,7 @@ int send_can_data(float target_data1,float target_data2)
 			 break;
 	 }
 	 LED1 = 1;
+	 isResetReady = 1;
  while(1)
  {
 			if(Speed_Flag)
