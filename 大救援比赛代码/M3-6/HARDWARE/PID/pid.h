@@ -8,7 +8,7 @@
 #define MAX_INC_PWM	 100
 #define MIN_INC_PWM	 -100
 
-#define MAX_PWM      300
+#define MAX_PWM      750
 #define DEAD_PWM     0
 #define Turn_Point   0.5
 
