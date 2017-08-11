@@ -1,0 +1,403 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : sans-serif;
+			color : white;
+			background-color : #21489e;
+			padding: 0.3em;
+		}
+		body {
+			font-family : verdana;
+		}
+		td, th {
+			padding: 0.5em;
+			text-align : center;
+			width : 18%;
+		}
+		th {
+			background-color : #A6CAF0;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+		}
+		
+		.DRC_summary_header {							
+			padding-bottom : 0.1em;
+			border : 0px solid black;							
+			width: 100%;
+                        align: right;
+                        
+		}
+
+		.DRC_summary_header_col1, 
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3
+		{
+			color : black;
+			font-size:150%;
+                        padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2: 0em;
+			border : 0px solid black;
+			width : auto;
+			vertical-align: top;
+			font-weight: bold;				
+		}
+		
+		.DRC_summary_header_col1 	
+		{		                       
+			text-align: right;
+                        width: auto;	
+		}
+
+		.DRC_summary_header_col2 	
+		{		
+			text-align: center;	
+		}
+
+		.DRC_summary_header_col3 	
+		{		
+			text-align: left;	
+		}
+
+
+		
+		.header_holder
+		{
+		Width = 100%;
+		border = 0px solid green;
+		padding = 0;
+		}
+		
+		
+		
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+                {
+			left:0;
+			top:0;
+			padding-top : 0.1em;			
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top
+
+		}
+		.front_matter {	
+			
+			margin-top: 5px;
+ 			margin-left: 0px;					 			
+ 			horizontal-align: left;
+		}
+				
+		
+		.front_matter_column1 {
+			width : 10em;	
+			text-align  : right;
+			padding-right:0.1em;
+			
+		}
+		
+		.front_matter_column2 {
+                        width: 0.1em;
+			align: center;
+			text-align : center;
+			margin-right  : 0.1em;	
+			margin-left   : 0.1em;
+		}
+		.front_matter_column3 {
+			width         : auto;  
+			text-align    : left;	
+			margin-right  : 0.5em;				
+		}
+		
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : right;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #EEEEE0 
+		}
+		tr.onmouseout_even { 
+			background-color : #F3F3E3   
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : lightYellow
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #008000 
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD14\Templates\AD-rgb_logo_223x64.gif
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td Style="width:70%">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">2016/3/12</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">22:34:19</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3"><a href="file:///C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc" class="file"><acronym title="C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc">C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td Style="Width:30%">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings</td>
+<td class="DRC_summary_header_col2">:</td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations</td>
+<td class="DRC_summary_header_col2">:</td>
+<td class="DRC_summary_header_col3" style="color : red">21</td></tr>
+</table>
+</td>
+</table>
+<hr><a name="IDGIS5VC10BZTDO3QUHE0JOWUKMH2AC0VMEASEDMKRU3VWN2GHGOPB"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVV40J1KJWJ1PFPZU14ZYZEGA5ORNYAYPA5XR3BI0ENH3RQFTI1Z">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQCY3VJEU01VGB4TUZKSAJ1D11PSQRKLRHRATJKPZ2PWSOVSRQ3II">Silk primitive without silk layer</a></td>
+<td class="column2">21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2ULNSVONYXTCM3GHJ4ATDDB0SLIPG5XK21423UIULB4U3IT0RRB">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDIDASEL3ELWTNNCLFHTEJULMV0OBPFOVUPQZ1TLIQC0RL5PHBSF0G">Silk To Solder Mask (Clearance=0mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIE5F4QXZ3HXOEDB0CTEPVZ131JPSFW2OJ1LASKF5ALKAVRXEVJEP">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0ACLZKEOA4QDO0AYT4AZUXGJRPGO4SV2MOCGGYOZV5UXBNRVR3LN">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZAG5GNCRKFH5HJCLAP3FF3FB5IBSWEGF4NHNPPONNDB0G1A42XYK">Hole Size Constraint (Min=0.025mm) (Max=25.4mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2NKGL4MAOKGAHZF2SKHY5MJQVL11ID4F2FFCZTEKKCFUJH5J1OLJ">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDILJVBJT4DXJIE1JMWXXVFD1DBDFFWBRAPDQPILGQREK5TV1G05I">Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOXTCNEUM4OYINNUFB20RN0PLTLFHSCCQM2NR03DRHSZRQ4W33UTH">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZ5ZX01PUGVEQOSP2U2MRKJEMBDBICVB2B3E44NERKCHRV4DPING">Clearance Constraint (Gap=0.178mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKMHGDQVCP3JLDFKBTTWVSW54BKFF1EBMMLOY2MNQIXEBPJQ5HBJF">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXXB0KKQHW2Y1MX0RPRVB3B44HIACCMIULEHUISCSG5BAO4UUYHIB">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">21</td>
+</tr>
+</table><br><hr><a name="IDQCY3VJEU01VGB4TUZKSAJ1D11PSQRKLRHRATJKPZ2PWSOVSRQ3II"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk primitive without silk layer</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6969.47mil|Location2.X=7004.216mil|Location1.Y=4161.594mil|Location2.Y=4168.01mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6969.47mil|Location2.X=7004.216mil|Location1.Y=4161.594mil|Location2.Y=4168.01mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (177.106mm,100.836mm)(177.106mm,110.736mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4883.459mil|Location2.X=5164.871mil|Location1.Y=3658.459mil|Location2.Y=3911.541mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4883.459mil|Location2.X=5164.871mil|Location1.Y=3658.459mil|Location2.Y=3911.541mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (122.555mm,96.139mm)(131.953mm,96.139mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4801.792mil|Location2.X=4836.538mil|Location1.Y=3974.292mil|Location2.Y=3980.708mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4801.792mil|Location2.X=4836.538mil|Location1.Y=3974.292mil|Location2.Y=3980.708mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,96.647mm)(122.047mm,105.41mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4804.292mil|Location2.X=4849.038mil|Location1.Y=4149.292mil|Location2.Y=4165.708mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4804.292mil|Location2.X=4849.038mil|Location1.Y=4149.292mil|Location2.Y=4165.708mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,105.41mm)(122.428mm,105.791mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4879.292mil|Location2.X=5164.038mil|Location1.Y=4036.792mil|Location2.Y=4293.208mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4879.292mil|Location2.X=5164.038mil|Location1.Y=4036.792mil|Location2.Y=4293.208mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (122.428mm,105.791mm)(131.953mm,105.791mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4805.125mil|Location2.X=4853.205mil|Location1.Y=3785.125mil|Location2.Y=3804.875mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4805.125mil|Location2.X=4853.205mil|Location1.Y=3785.125mil|Location2.Y=3804.875mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,96.647mm)(122.555mm,96.139mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4883.459mil|Location2.X=5164.871mil|Location1.Y=4108.459mil|Location2.Y=4361.541mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4883.459mil|Location2.X=5164.871mil|Location1.Y=4108.459mil|Location2.Y=4361.541mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (122.555mm,107.569mm)(131.953mm,107.569mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4801.792mil|Location2.X=4836.538mil|Location1.Y=4424.292mil|Location2.Y=4430.708mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4801.792mil|Location2.X=4836.538mil|Location1.Y=4424.292mil|Location2.Y=4430.708mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,108.077mm)(122.047mm,116.84mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4804.292mil|Location2.X=4849.038mil|Location1.Y=4599.292mil|Location2.Y=4615.708mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4804.292mil|Location2.X=4849.038mil|Location1.Y=4599.292mil|Location2.Y=4615.708mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,116.84mm)(122.428mm,117.221mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4879.292mil|Location2.X=5164.038mil|Location1.Y=4486.792mil|Location2.Y=4743.208mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4879.292mil|Location2.X=5164.038mil|Location1.Y=4486.792mil|Location2.Y=4743.208mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (122.428mm,117.221mm)(131.953mm,117.221mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4805.125mil|Location2.X=4853.205mil|Location1.Y=4235.125mil|Location2.Y=4254.875mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4805.125mil|Location2.X=4853.205mil|Location1.Y=4235.125mil|Location2.Y=4254.875mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,108.077mm)(122.555mm,107.569mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5851.353mil|Location2.X=5986.596mil|Location1.Y=3651.037mil|Location2.Y=3757.95mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5851.353mil|Location2.X=5986.596mil|Location1.Y=3651.037mil|Location2.Y=3757.95mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "8MHz" (148.12mm,93.586mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5690.223mil|Location2.X=6060.945mil|Location1.Y=3455.297mil|Location2.Y=3797.69mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5690.223mil|Location2.X=6060.945mil|Location1.Y=3455.297mil|Location2.Y=3797.69mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "STM32F103RBT6" (142.532mm,91.605mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5739.685mil|Location2.X=5888.257mil|Location1.Y=3603.04mil|Location2.Y=3723.282mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5739.685mil|Location2.X=5888.257mil|Location1.Y=3603.04mil|Location2.Y=3723.282mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "10kΩ" (145.199mm,92.621mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6881.353mil|Location2.X=7016.596mil|Location1.Y=3623.037mil|Location2.Y=3729.95mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6881.353mil|Location2.X=7016.596mil|Location1.Y=3623.037mil|Location2.Y=3729.95mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "Res2" (174.282mm,92.875mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5353.011mil|Location2.X=5594.886mil|Location1.Y=3574.721mil|Location2.Y=3788.266mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5353.011mil|Location2.X=5594.886mil|Location1.Y=3574.721mil|Location2.Y=3788.266mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "Header 2" (134.785mm,93.002mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6222.353mil|Location2.X=6357.596mil|Location1.Y=3508.037mil|Location2.Y=3614.95mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6222.353mil|Location2.X=6357.596mil|Location1.Y=3508.037mil|Location2.Y=3614.95mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "KEY2" (157.543mm,89.954mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6755.353mil|Location2.X=6890.596mil|Location1.Y=3623.037mil|Location2.Y=3729.95mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6755.353mil|Location2.X=6890.596mil|Location1.Y=3623.037mil|Location2.Y=3729.95mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "LED2" (171.082mm,92.875mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.793mil|Location2.X=4968.795mil|Location1.Y=4075.825mil|Location2.Y=4240.497mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.793mil|Location2.X=4968.795mil|Location1.Y=4075.825mil|Location2.Y=4240.497mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "2针端子" (120.434mm,105.194mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.793mil|Location2.X=4968.795mil|Location1.Y=3625.825mil|Location2.Y=3790.497mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.793mil|Location2.X=4968.795mil|Location1.Y=3625.825mil|Location2.Y=3790.497mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "2针端子" (120.434mm,93.764mm)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB%E8%BD%ACCAN\USB%E8%BD%ACCAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5878.578mil|Location2.X=5982.72mil|Location1.Y=3628.588mil|Location2.Y=3704.399mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5878.578mil|Location2.X=5982.72mil|Location1.Y=3628.588mil|Location2.Y=3704.399mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "104" (149.009mm,92.621mm)  Top Overlay</acronym></a><br></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br></body>
+</html>

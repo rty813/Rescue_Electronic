@@ -1,0 +1,20 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~PCB_Project1.PrjPCB|ReportField=ProjectFullPath~C:\Users\lenovo\Desktop\USB转CAN\PCB_Project1.PrjPCB|ReportField=Title~Bill of Materials For PCB Document [USB转CAN.PcbDoc]|ReportField=TotalQuantity~32|ReportField=ReportTime~20:08:06|ReportField=ReportDate~2016/3/2|ReportField=ReportDateTime~2016/3/2 20:08:06|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=DataSourceFileName~USB转CAN.PcbDoc|ReportField=DataSourceFullPath~C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc
+104||C2, C3, C4, C6, C7, C9, can4|0603P|CAP_WYN|7
+4.7uF||C5|1206|CAP_POL_WYN|1
+22p||C8, C10|0603P|C|2
+2针端子||CAN1, CAN2|CAN|2针端子|2
+10uF||can3|0603p|CAP_POL_WYN|1
+LED2|Typical RED, GREEN, YELLOW, AMBER GaAs LED|D1, RX, TX|SMDLED|LED2|3
+KEY2||KEY1|SW-PB|KEY|1
+Header 4|Header, 4-Pin|P1|HDR1X4|Header 4|1
+Header 2|Header, 2-Pin|P2|HDR1X2|Header 2|1
+Res2|Resistor|R1, R2, R3, R4|0603P|Res2|4
+10kΩ||R6|0603P|RES_WYN|1
+120||R7|0603P|R|1
+1K_1k||Rhalf1|0603p|RES_WYN|1
+1K||Rhalf2|0603p|RES_WYN|1
+STM32F103RBT6||U1|TQFP-64|STM32F103RDT6|1
+FT232RL||U2|SSOP-28|FT232RL|1
+USB||USB1|USB|USB|1
+VP230||VP1|VP230|VP230|1
+8MHz|Crystal Oscillator|Y1|XTAL_US|XTAL|1

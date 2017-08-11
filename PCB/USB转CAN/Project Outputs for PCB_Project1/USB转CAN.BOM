@@ -1,0 +1,24 @@
+Bill of Material for 
+On 2016/3/2 at 20:05:09
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 104                 0603P            7    C2, C3, C4, C6, C7, C9, can4                      
+ 10k¦¸                0603P            1    R6                                                
+ 10uF                0603p            1    can3                                              
+ 120                 0603P            1    R7                                                
+ 1K_1k               0603p            1    Rhalf1                                            
+ 1K                  0603p            1    Rhalf2                                            
+ 22p                 0603P            2    C8, C10                                           
+ 2Õë¶Ë×Ó                CAN              2    CAN1, CAN2                                        
+ 4.7uF               1206             1    C5                                                
+ 8MHz                XTAL_US          1    Y1                           Crystal Oscillator   
+ FT232RL             SSOP-28          1    U2                                                
+ Header 2            HDR1X2           1    P2                           Header, 2-Pin        
+ Header 4            HDR1X4           1    P1                           Header, 4-Pin        
+ KEY2                SW-PB            1    KEY1                                              
+ LED2                SMDLED           3    D1, RX, TX                   Typical RED, GREEN, YELLOW, AMBER GaAs LED 
+ Res2                0603P            4    R1, R2, R3, R4               Resistor             
+ STM32F103RBT6       TQFP-64          1    U1                                                
+ USB                 USB              1    USB1                                              
+ VP230               VP230            1    VP1                                               

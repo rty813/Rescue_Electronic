@@ -1,0 +1,68 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\lenovo\Desktop\USB转CAN\USB转CAN.PcbDoc
+Date     : 2016/3/12
+Time     : 22:34:19
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (177.106mm,100.836mm)(177.106mm,110.736mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (122.555mm,96.139mm)(131.953mm,96.139mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,96.647mm)(122.047mm,105.41mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,105.41mm)(122.428mm,105.791mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (122.428mm,105.791mm)(131.953mm,105.791mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,96.647mm)(122.555mm,96.139mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (122.555mm,107.569mm)(131.953mm,107.569mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,108.077mm)(122.047mm,116.84mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,116.84mm)(122.428mm,117.221mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (122.428mm,117.221mm)(131.953mm,117.221mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (122.047mm,108.077mm)(122.555mm,107.569mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "8MHz" (148.12mm,93.586mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "STM32F103RBT6" (142.532mm,91.605mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "10kΩ" (145.199mm,92.621mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "Res2" (174.282mm,92.875mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "Header 2" (134.785mm,93.002mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "KEY2" (157.543mm,89.954mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "LED2" (171.082mm,92.875mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "2针端子" (120.434mm,105.194mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "2针端子" (120.434mm,93.764mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "104" (149.009mm,92.621mm)  Top Overlay
+Rule Violations :21
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=25.4mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.178mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 21
+Time Elapsed        : 00:00:02

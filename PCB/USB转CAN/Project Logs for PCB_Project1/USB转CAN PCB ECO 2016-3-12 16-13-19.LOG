@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=R7 Old Footprint=0603P New Footprint=0805
+Added Pin To Net: NetName=CAN_TX Pin=VP1-1
+Added Pin To Net: NetName=CAN_RX Pin=VP1-4
