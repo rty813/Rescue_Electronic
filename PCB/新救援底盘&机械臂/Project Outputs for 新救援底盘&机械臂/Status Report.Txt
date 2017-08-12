@@ -1,0 +1,10 @@
+Output: PCAD Netlist
+Type  : PCADNetlist
+From  : Project [ĞÂ¾ÈÔ®µ×ÅÌ&»úĞµ±Û.PrjPcb]
+   Generated File[Sheet2.NET]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:15:21 On 2017/4/8

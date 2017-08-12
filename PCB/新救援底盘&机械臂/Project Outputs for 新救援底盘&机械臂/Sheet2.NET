@@ -1,0 +1,439 @@
+{COMPONENT PROTEL.PCB
+  {ENVIRONMENT PROTEL.SCH}
+  {DETAIL
+    {SUBCOMP
+      {I LOGO.PRT 
+        {CN
+        }
+      }
+      {I XTAL_D.PRT 8MHZ
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I SOT-223_WYN.PRT 1117_3.3
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        }
+      }
+      {I JTAG_10to20.PRT BM1
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        5 ?
+        6 ?
+        7 ?
+        8 ?
+        9 ?
+       10 ?
+        }
+      }
+      {I JTAG_10to20.PRT BM2
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        5 ?
+        6 ?
+        7 ?
+        8 ?
+        9 ?
+       10 ?
+        }
+      }
+      {I JTAG_10to20.PRT BM3
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        5 ?
+        6 ?
+        7 ?
+        8 ?
+        9 ?
+       10 ?
+        }
+      }
+      {I JTAG_10to20.PRT BM4
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        5 ?
+        6 ?
+        7 ?
+        8 ?
+        9 ?
+       10 ?
+        }
+      }
+      {I 0603_WYH.PRT C1_22PF
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT C2_22PF
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT C4_10uf
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT C5_100nf
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT C6_10uf
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT C7_100nf
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT C_CAN_10nF
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT C_CAN_10uF
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT C_RST_0.1uf
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I CANÐÅºÅ.PRT CANH_CANL
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT CANR1
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT CANR2
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I .PRT E_HEAD
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT E_LED
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT L0
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT L1
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT L2
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT LS0_1K
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT LS1_1K
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT LS2_1K
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I JTAG_10to20.PRT M1-M2
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        5 ?
+        6 ?
+        7 ?
+        8 ?
+        9 ?
+       10 ?
+        }
+      }
+      {I JTAG_10to20.PRT M3-M4
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        5 ?
+        6 ?
+        7 ?
+        8 ?
+        9 ?
+       10 ?
+        }
+      }
+      {I 0603_WYH.PRT R6_120
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT R_LED_4.7K
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT R_RST_10K
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I CLCK.PRT RST_BUTTON
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I DIP-4.PRT S1
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        }
+      }
+      {I STM32TSQFP50P1200X1200X160-64N.PRT STM32_1
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        5 ?
+        6 ?
+        7 ?
+        8 ?
+        9 ?
+       10 ?
+       11 ?
+       12 ?
+       13 ?
+       14 ?
+       15 ?
+       16 ?
+       17 ?
+       18 ?
+       19 ?
+       20 ?
+       21 ?
+       22 ?
+       23 ?
+       24 ?
+       25 ?
+       26 ?
+       27 ?
+       28 ?
+       29 ?
+       30 ?
+       31 ?
+       32 ?
+       33 ?
+       34 ?
+       35 ?
+       36 ?
+       37 ?
+       38 ?
+       39 ?
+       40 ?
+       41 ?
+       42 ?
+       43 ?
+       44 ?
+       45 ?
+       46 ?
+       47 ?
+       48 ?
+       49 ?
+       50 ?
+       51 ?
+       52 ?
+       53 ?
+       54 ?
+       55 ?
+       56 ?
+       57 ?
+       58 ?
+       59 ?
+       60 ?
+       61 ?
+       62 ?
+       63 ?
+       64 ?
+        }
+      }
+      {I 0603_WYH.PRT SW1_10K
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT SW2_10K
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT SW3_10K
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT SW4_10K
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I HDR1X5.PRT SWD
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        }
+      }
+      {I HDR1X2.PRT TM
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I .PRT USART1
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        }
+      }
+      {I .PRT USART2
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        }
+      }
+      {I .PRT USART3
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        }
+      }
+      {I 0603_WYH.PRT VDD1
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT VDD2
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT VDD3
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT VDD4
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT VDDA1
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I 0603_WYH.PRT VDDA2
+        {CN
+        1 ?
+        2 ?
+        }
+      }
+      {I VP230.PRT VP230
+        {CN
+        1 ?
+        2 ?
+        3 ?
+        4 ?
+        5 ?
+        6 ?
+        7 ?
+        8 ?
+        }
+      }
+    }
+  }
+}
